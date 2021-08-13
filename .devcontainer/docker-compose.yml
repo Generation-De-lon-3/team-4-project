@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  database-dev-env:
+    build: .
+    depends_on:
+      - postgres
+    init: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ..:/workspace:cached
+      - ~/.aws:/home/vscode/.aws
+    command: /bin/sh -c "while sleep 1000; do :; done"
+  postgres:
+    image: postgres:13.1
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "root" ]
+      timeout: 45s
+      interval: 10s
+      retries: 10
+    restart: always
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=password
+      - APP_DB_USER=docker
+      - APP_DB_PASS=docker
+      - APP_DB_NAME=docker
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+    ports:
+      - 5432:5432
+  adminer:
+    image: adminer
+    container_name: adminer_container
+    restart: always
+    ports:
+      - 8080:8080
+volumes:
+  example_db:

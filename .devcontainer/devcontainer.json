@@ -1,0 +1,21 @@
+{
+  "name": "Final Project Dev Container",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+  },
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "kevinrose.vsc-python-indent",
+    "littlefoxteam.vscode-python-test-adapter",
+    "ms-vscode-remote.remote-containers",
+    "redhat.vscode-yaml",
+    "redhat.vscode-yaml0"
+  ],
+  "service": "database-dev-env",
+  "workspaceFolder": "/workspace",
+  "dockerComposeFile": "docker-compose.yml",
+  "shutdownAction": "none"
+}
