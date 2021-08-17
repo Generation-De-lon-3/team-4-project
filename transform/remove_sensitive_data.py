@@ -4,14 +4,14 @@ import numpy as np
 cafe_file_path = '2021-02-23-isle-of-wight.csv'
 df = pd.read_csv(cafe_file_path, na_values='n/a', names=["timestamp of purchase", "location", "customer name", "basket items (name, size and price)", "cash or card payment", "total price", "card number (empty if cash)"])
 
-#print(df.head())
+
 del df['customer name'] 
-print(df.head())
-#print(df['card number (empty if cash)'][1][0:8].rstrip())
+#Customer name has been removed
+
 
 
 col = 'card number (empty if cash)'
-
+#replace none with nan and select card issuer name
 for i in range(len(df[col])):
     current = df[col].iloc[i]
     if df[col][i] == 'None':
@@ -19,7 +19,7 @@ for i in range(len(df[col])):
     else:
         df[col][i] = current.split(',')[0]
 
-print(current)
+#sum of null cells is card info
 print(df[col].isnull().sum())
 
 
