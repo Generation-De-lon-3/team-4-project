@@ -12,6 +12,7 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
   postgres:
     image: postgres:13.1
+    container_name: postgres
     healthcheck:
       test: [ "CMD", "pg_isready", "-q", "-d", "postgres", "-U", "root" ]
       timeout: 45s
@@ -25,7 +26,7 @@ services:
       - APP_DB_PASS=docker
       - APP_DB_NAME=docker
     volumes:
-      - ./db:/docker-entrypoint-initdb.d/
+      - ./db:/docker-entrypoint-initdb.d/ 
     ports:
       - 5432:5432
   adminer:
