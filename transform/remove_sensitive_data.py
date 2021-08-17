@@ -24,3 +24,4 @@ print(df[col].isnull().sum())
 
 
 print(df['card number (empty if cash)'].head())
+print(df.head())
