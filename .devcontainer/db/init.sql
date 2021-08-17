@@ -13,7 +13,6 @@ CREATE TABLE IF NOT EXISTS products (
 CREATE TABLE IF NOT EXISTS orders (
 	order_id SERIAL NOT NULL,
 	timestamp_of_purchase timestamp NOT NULL,
-	customer_name varchar(22) NOT NULL,
 	branch_place varchar(100) NOT NULL,
 PRIMARY KEY (order_id)
 );
