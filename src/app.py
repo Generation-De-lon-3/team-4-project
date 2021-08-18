@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 
 df = pd.read_csv('data/2021-02-23-isle-of-wight.csv', names=["timestamp", "branch", "customer", 'basket', "payment_method", "total_price", "card"])
@@ -22,5 +23,12 @@ for item in cafe_data:
 
     for index, items in enumerate(item['basket']):  
         item['basket'][index] = dict(zip(basket_fields,items))
+        
+    # for cards in item['basket']['card']:  
+    #     item['basket']['card'] =  cards.split("-", 1)
 
-print(cafe_data[0]['basket'][0]['name'])
+
+
+# print(cafe_data)
+# pprint.pprint(cafe_data)
+# print(json.dumps(cafe_data, indent=2))
