@@ -19,10 +19,10 @@ for i in range(len(df[col])):
     else:
         df[col][i] = current.split(',')[0]
 
-#sum of null cells is card info
+"""sum of null cells is card info"""
 print(df[col].isnull().sum())
 
-#print output
+"""print output"""
 print(df.head())
 
 cafe_data = df.to_dict('records')
@@ -42,5 +42,14 @@ for item in cafe_data:
 
     for index, items in enumerate(item['basket']):  
         item['basket'][index] = dict(zip(basket_fields,items))
+
+#Replace empty string in size with NaN
+for i in range(len(cafe_data)):
+    basket = cafe_data[i]['basket']
+    for key in basket:
+        if key['size'] == "":
+            key['size'] = "NaN"
+
+
 
 print(json.dumps(cafe_data, indent=4))
