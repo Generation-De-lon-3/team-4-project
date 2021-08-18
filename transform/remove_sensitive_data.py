@@ -5,11 +5,11 @@ cafe_file_path = '2021-02-23-isle-of-wight.csv'
 df = pd.read_csv(cafe_file_path, na_values='n/a', names=["timestamp", "branch", "customer", "basket", "payment_method", "total_price", "card"])
 
 
-del df['customer name'] 
+del df['customer'] 
 #Customer name has been removed
 
 
-col = 'card number (empty if cash)'
+col = 'card'
 #replace none with nan and select card issuer name
 for i in range(len(df[col])):
     current = df[col].iloc[i]
