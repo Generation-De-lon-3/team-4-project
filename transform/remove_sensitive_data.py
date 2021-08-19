@@ -48,7 +48,7 @@ for i in range(len(cafe_data)):
     basket = cafe_data[i]['basket']
     for key in basket:
         if key['size'] == "":
-            key['size'] = "NaN"
+            key['size'] = np.nan
 
 
 
