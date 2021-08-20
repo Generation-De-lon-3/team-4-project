@@ -27,10 +27,10 @@ CREATE TABLE IF NOT EXISTS orders (
 	order_id SERIAL NOT NULL,
 	timestamp_of_purchase timestamp NOT NULL,
 	branch_id int NOT NULL,
-	FOREIGN KEY (branch_id) REFERENCES branch (branch_id)
 	total_price float NOT NULL,
 	payment_id int NOT NULL,
-	FOREIGN KEY (payment_id) REFERENCES payments (payment_id)
+	FOREIGN KEY (branch_id) REFERENCES branch (branch_id),
+	FOREIGN KEY (payment_id) REFERENCES payments (payment_id),
 PRIMARY KEY (order_id)
 );
 
