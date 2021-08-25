@@ -20,10 +20,10 @@ for i in range(len(df[col])):
         df[col][i] = current.split(',')[0]
 
 """sum of null cells is card info"""
-print(df[col].isnull().sum())
+#print(df[col].isnull().sum())
 
 """print output"""
-print(df.head())
+#print(df.head())
 
 cafe_data = df.to_dict('records')
 
@@ -52,4 +52,39 @@ for i in range(len(cafe_data)):
 
 
 
-print(json.dumps(cafe_data, indent=4))
+#print(json.dumps(cafe_data, indent=4))
+
+
+# rows list initialization
+rows = []
+
+# appending rows
+for data in cafe_data:
+	data_row = data['basket']
+	time = data['timestamp']
+	
+	for row in data_row:
+		row['Time']= time
+		rows.append(row)
+
+# row into dataframe basket without quantity
+basketdf = pd.DataFrame(rows)
+
+# data for products table no duplicates
+productsdf = basketdf.drop_duplicates(subset=['size', 'name', 'price']).reset_index(drop=True)
+
+# cafe data to dataframe
+cafe_data_df = pd.DataFrame(cafe_data)
+
+# branch dataframe no duplicates
+ranch_data = cafe_data_df['branch'].drop_duplicates().reset_index(drop=True)
+
+# payment dataframe
+payment_data = cafe_data_df[['payment_method', 'card']]
+
+# orders dataframe
+orders_data = cafe_data_df[['timestamp', 'total_price']]
+
+# basket with quantity
+basket_with_quantity = basketdf.pivot_table(index = ['Time', 'name', 'price'], aggfunc ='size')
+
