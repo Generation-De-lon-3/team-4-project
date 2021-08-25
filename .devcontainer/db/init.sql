@@ -4,7 +4,7 @@ CREATE DATABASE cafe;
 
 CREATE TABLE IF NOT EXISTS products (
 	product_id SERIAL NOT NULL,
-	product_name varchar(22) NOT NULL,
+	product_name varchar(100) NOT NULL,
 	product_size varchar(10),
 	product_price float NOT NULL,
 PRIMARY KEY (product_id)

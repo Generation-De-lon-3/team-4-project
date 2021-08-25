@@ -43,4 +43,4 @@ for item in cafe_data:
     for index, items in enumerate(item['basket']):  
         item['basket'][index] = dict(zip(basket_fields,items))
 
-print(json.dumps(cafe_data, indent=4))
+# print(json.dumps(cafe_data, indent=4))
