@@ -6,33 +6,36 @@ connection = psycopg2.connect(host="127.0.0.1", user="root", password="password"
 cursor = connection.cursor()
 
 
-column_names = ['product_id', 'product_name', 'product_size', 'product_price']
-column_names2 = ['basket_id', 'order_id', 'product_id', 'product_quantity']
+val = []
 
-cursor.execute("select * from basket")
-tupples = cursor.fetchall()
 
-cursor.execute("select * from products")
-touples = cursor.fetchall()
+orders = pd.read_sql_query("SELECT * FROM orders", connection)
+products = pd.read_sql_query("SELECT * FROM products", connection)
+
+products_dict = products.to_dict("records")
+
+for each in products_dict:
+    for item in app.cafe_dict:
+        for every in item["basket"]:
+            if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
+                every["product_id"] = each["product_id"]
+                
+cafe_data=pd.DataFrame(app.cafe_dict)
+cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
+
+merged_data = pd.merge(cafe_data, orders, on="order_timestamp")
+
+merged_dict = merged_data.to_dict('records')   
+
+
+for every in merged_dict:
+    for entry in every["basket"]:
+        val.append(f"('{every['order_id']}', '{entry['product_id']}', '1')")    
+
+print(val)
+
+for sql in val:
+    cursor.execute(f"INSERT INTO baskets (order_id, product_id, product_quantity) VALUES {sql} ON CONFLICT (order_id, product_id) DO UPDATE SET product_quantity = baskets.product_quantity + 1;")
+connection.commit()
 cursor.close()
-
-df = pd.DataFrame(tupples, columns=column_names2)
-df1 = pd.DataFrame(touples, columns=column_names)
-
-for each in app.cafe_data:
-    # print(each)
-    for item in each['basket']:
-        # print(item)
-        for key in item.keys():
-            # print(key)
-            df['product_id'] = df1['product_name'].apply(lambda x: key.get(x)).fillna('')
-
-    
-print(df)
-
-
-
-# cursor.execute()
-# connection.commit()
-# cursor.close()
-# connection.close()
+connection.close()

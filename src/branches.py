@@ -1,5 +1,4 @@
 import app
-import pandas as pd
 import psycopg2
 
 
@@ -10,7 +9,7 @@ cursor = connection.cursor()
 val = []
 
 
-for each in app.cafe_data:
+for each in app.cafe_dict:
     if each["branch"] not in val:
         val.append(each["branch"])
     
