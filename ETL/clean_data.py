@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import json
 
+from pandas.io import parsers
+
 cafe_file_path = '2021-02-23-isle-of-wight.csv'
 df = pd.read_csv(cafe_file_path, na_values='n/a', names=["timestamp", "branch", "customer", "basket", "payment_method", "total_price", "card"])
 
@@ -25,6 +27,7 @@ for i in range(len(df[col])):
 """print output"""
 #print(df.head())
 
+#dataframe to list of dictionaries for each order
 cafe_data = df.to_dict('records')
 
 
@@ -77,13 +80,19 @@ productsdf = basketdf.drop_duplicates(subset=['size', 'name', 'price']).reset_in
 cafe_data_df = pd.DataFrame(cafe_data)
 
 # branch dataframe no duplicates
-ranch_data = cafe_data_df['branch'].drop_duplicates().reset_index(drop=True)
+branch_data = cafe_data_df[['branch']].drop_duplicates().reset_index(drop=True)
+branch_data = branch_data.to_dict('records')
 
 # payment dataframe
-payment_data = cafe_data_df[['payment_method', 'card']]
+payment_data = cafe_data_df[['payment_method', 'card', 'total_price']]
+payment_data = payment_data.reset_index()
+payment_data.index.astype(dtype= 'int64')
+payment_data['index'] += 1
+
 
 # orders dataframe
-orders_data = cafe_data_df[['timestamp', 'total_price']]
+orders_data = cafe_data_df[['timestamp']]
+
 
 # basket with quantity
 basket_with_quantity = basketdf.pivot_table(index = ['Time', 'name', 'price'], aggfunc ='size')
