@@ -80,7 +80,8 @@ productsdf = basketdf.drop_duplicates(subset=['size', 'name', 'price']).reset_in
 cafe_data_df = pd.DataFrame(cafe_data)
 
 # branch dataframe no duplicates
-ranch_data = cafe_data_df['branch'].drop_duplicates().reset_index(drop=True)
+branch_data = cafe_data_df[['branch']].drop_duplicates().reset_index(drop=True)
+branch_data = branch_data.to_dict('records')
 
 # payment dataframe
 payment_data = cafe_data_df[['payment_method', 'card', 'total_price']]
