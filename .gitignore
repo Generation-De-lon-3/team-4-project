@@ -1,0 +1,4 @@
+.serverless
+.venv
+.vscode
+node_modules

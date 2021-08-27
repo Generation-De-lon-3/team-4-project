@@ -1,0 +1,17 @@
+service: team4-group-project
+
+frameworkVersion: '2'
+
+
+provider:
+  iam:  
+    role:
+      permissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
+  region: eu-west-1
+  name: aws
+  runtime: python3.9
+  lambdaHashingVersion: 20201221
+
+functions:
+  hello:
+    handler: handler.hello
