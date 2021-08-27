@@ -1,7 +1,6 @@
 import psycopg2
+import pandas 
 import clean_data as app
-
-
 
 
 #establish database connection
@@ -10,14 +9,14 @@ connection = psycopg2.connect(
     user = "root",
     password = "password",
     database = "cafe",
-
 )
 
 #DB cursor
 cursor = connection.cursor()
 
+
 #branch table
-cursor.executemany("INSERT INTO branch(branch) VALUES (%(branch)s)",app.cafe_data)
+cursor.executemany("INSERT INTO branches(branch_name) VALUES (%(branch)s)",app.branch_data)
 connection.commit()
 print(cursor.rowcount,"record(s) inserted.")
 
