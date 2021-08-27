@@ -1,24 +1,15 @@
-<<<<<<< HEAD
-service: serverless-group4
-=======
 service: team4-group-project
->>>>>>> stefan
 
 frameworkVersion: '2'
 
 
 provider:
-<<<<<<< HEAD
-  name: aws
-  runtime: python3.8
-=======
   iam:  
     role:
       permissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
   region: eu-west-1
   name: aws
   runtime: python3.9
->>>>>>> stefan
   lambdaHashingVersion: 20201221
 
 functions:
