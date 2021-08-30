@@ -14,4 +14,4 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: src/team4-sls/handler.hello
