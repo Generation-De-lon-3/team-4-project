@@ -1,4 +1,4 @@
-import app
+import ET
 import psycopg2
 import pandas as pd
 
@@ -10,14 +10,14 @@ branches = pd.read_sql_query("SELECT * FROM branches", connection)
 val = []
 
 
-for each in app.cafe_dict:
+for each in ET.cafe_dict:
     for branch in branches.iterrows():
         if branch[1]["branch_name"] == each['branch']:
             branchid = branch[1]["branch_id"]
             val.append(f"('{each['order_timestamp']}', '{branchid}')")
             
 
-print(len(val))
+# print(len(val))
 
 cursor.execute(f"INSERT INTO orders (order_timestamp, branch_id) VALUES {' ,'.join(val)};")
 connection.commit()

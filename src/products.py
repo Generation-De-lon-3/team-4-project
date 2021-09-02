@@ -1,4 +1,4 @@
-import app
+import ET
 import psycopg2
 
 
@@ -7,7 +7,7 @@ cursor = connection.cursor()
 
 baskets = []
 
-for item in app.cafe_dict:
+for item in ET.cafe_dict:
         for index, each in enumerate(item['basket']):
             baskets.append(item['basket'][index])
 

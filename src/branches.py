@@ -1,4 +1,4 @@
-import app
+import ET
 import psycopg2
 
 
@@ -9,11 +9,11 @@ cursor = connection.cursor()
 val = []
 
 
-for each in app.cafe_dict:
+for each in ET.cafe_dict:
     if each["branch"] not in val:
         val.append(each["branch"])
     
-print(val)
+# print(val)
 
 cursor.execute(f"INSERT INTO branches (branch_name) VALUES ('{' ,'.join(val)}');")
 connection.commit()

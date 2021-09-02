@@ -1,17 +1,64 @@
-service: team4-group-project
+service: team4-sls
 
-frameworkVersion: '2'
+# custom:
+#   pythonRequirements:
+#     slim: true
+#     layer: true
 
-
+# plugins:
+#   - serverless-python-requirements
 provider:
   iam:  
     role:
       permissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
+
   region: eu-west-1
   name: aws
   runtime: python3.9
   lambdaHashingVersion: 20201221
+  timeout: 300
+  # iamRoleStatements:
+  #   - Effect: 'Allow'
+  #     Action:
+  #       - s3:GetObject
+  #       - s3:ListBucket
+  #     Resource:
+  #       - arn:aws:iam::351115496094:role/data-project-lambda-role
+
+  # stage: dev
+
+package:
+  individually: false
+  include: 
+    - src/**
+  exclude:
+    - "*"
+    - "*/**"
 
 functions:
-  hello:
-    handler: handler.hello
+  ETL:
+    vpc:
+      securityGroupIds:
+        - sg-0afcfd2a983b80407
+      subnetIds:
+        - subnet-0f0145739a0011749
+    handler: src/team4-sls/handler.handle
+    timeout: 300
+    role: arn:aws:iam::351115496094:role/data-project-lambda-role
+    events:
+      - s3:
+          bucket: delon3-team-4-bucket
+          event: 
+            - s3:ObjectCreated:*
+          rules:
+            - suffix: .csv
+          existing: true
+      
+    
+  
+resources:
+  Resources:
+    IamRoleCustomResourcesLambdaExecution:
+      Type: AWS::IAM::Role
+      Properties:
+        PermissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
