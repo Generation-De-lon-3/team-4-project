@@ -1,12 +1,15 @@
-import ET
+import et
 import psycopg2
 import pandas as pd
+import app
 
-connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
+connection = app.connection
+
+# connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
 cursor = connection.cursor()
 
 
-cafe_data=pd.DataFrame(ET.cafe_dict)
+cafe_data=pd.DataFrame(et.cafe_dict)
 
 cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 

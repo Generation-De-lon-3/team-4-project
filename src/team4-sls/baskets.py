@@ -1,8 +1,11 @@
-import ET
+# import et
 import psycopg2
 import pandas as pd
+import app
 
-connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
+connection = app.connection
+
+# connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
 cursor = connection.cursor()
 
 
@@ -17,12 +20,12 @@ baskets = pd.read_sql_query("SELECT order_id FROM baskets", connection)
 products_dict = products.to_dict("records")
 
 for each in products_dict:
-    for item in ET.cafe_dict:
+    for item in et.cafe_dict:
         for every in item["basket"]:
             if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
                 every["product_id"] = each["product_id"]
                 
-cafe_data=pd.DataFrame(ET.cafe_dict)
+cafe_data=pd.DataFrame(et.cafe_dict)
 cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 
 merged_data = pd.merge(cafe_data, orders, on="order_timestamp")

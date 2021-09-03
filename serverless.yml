@@ -1,12 +1,17 @@
 service: team4-sls
 
-# custom:
-#   pythonRequirements:
-#     slim: true
-#     layer: true
 
-# plugins:
-#   - serverless-python-requirements
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    slim: true
+    layer: true
+    dockerizePip: true
+    dockerImage: python:latest
+
+
 provider:
   iam:  
     role:
@@ -14,9 +19,10 @@ provider:
 
   region: eu-west-1
   name: aws
-  runtime: python3.9
+  runtime: python3.8
   lambdaHashingVersion: 20201221
   timeout: 300
+
   # iamRoleStatements:
   #   - Effect: 'Allow'
   #     Action:
@@ -42,12 +48,14 @@ functions:
         - sg-0afcfd2a983b80407
       subnetIds:
         - subnet-0f0145739a0011749
-    handler: src/team4-sls/handler.handle
+    handler: src/team4-sls/app.handle
+    layers:
+      - Ref: PythonRequirementsLambdaLayer
     timeout: 300
     role: arn:aws:iam::351115496094:role/data-project-lambda-role
     events:
       - s3:
-          bucket: delon3-team-4-bucket
+          bucket: team-4-project
           event: 
             - s3:ObjectCreated:*
           rules:

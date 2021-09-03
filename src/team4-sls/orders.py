@@ -1,8 +1,11 @@
-import ET
+import et
 import psycopg2
 import pandas as pd
+import app
 
-connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
+connection = app.connection
+
+# connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
 cursor = connection.cursor()
 
 branches = pd.read_sql_query("SELECT * FROM branches", connection)
@@ -10,7 +13,7 @@ branches = pd.read_sql_query("SELECT * FROM branches", connection)
 val = []
 
 
-for each in ET.cafe_dict:
+for each in et.cafe_dict:
     for branch in branches.iterrows():
         if branch[1]["branch_name"] == each['branch']:
             branchid = branch[1]["branch_id"]

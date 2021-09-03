@@ -1,5 +1,8 @@
 import boto3
 import pandas as pd
+import psycopg2
+import products
+import sql
 # import json
 
 
@@ -42,4 +45,26 @@ def handle(event, context):
         item["card_type"]= item["card_type"].replace("None", "")
         
     
-    print(cafe_dict)
+    client = boto3.client('redshift', region_name='eu-west-1')
+
+    REDSHIFT_USER = "awsuser"
+    REDSHIFT_CLUSTER = "redshiftcluster-jlqz8zhcuit6"
+    REDSHIFT_DATABASE = "team-4-db"
+    
+    credentials = client.get_cluster_credentials(
+        DbUser=REDSHIFT_USER,
+        DbName=REDSHIFT_DATABASE,
+        ClusterIdentifier=REDSHIFT_CLUSTER,
+        DurationSeconds=3600
+        )
+    
+    connection = psycopg2.connect(
+        user=credentials['DbUser'], 
+        password=credentials['DbPassword'],
+        host=REDSHIFT_CLUSTER,
+        database=REDSHIFT_DATABASE,   
+        port=5439
+        )
+    
+    sql.sql()
+    products.products()
