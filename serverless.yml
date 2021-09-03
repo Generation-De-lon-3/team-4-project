@@ -9,7 +9,7 @@ custom:
     slim: true
     layer: true
     dockerizePip: true
-    dockerImage: python:latest
+#     dockerImage: python:latest
 
 
 provider:
