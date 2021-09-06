@@ -3,13 +3,17 @@ service: team4-sls
 
 plugins:
   - serverless-python-requirements
+  # - serverless-functions-base-path
 
 custom:
   pythonRequirements:
     slim: true
     layer: true
     dockerizePip: true
-    dockerImage: python:latest
+    # zip: true
+    # dockerImage: python:latest
+
+  # functionsBasePath: src
 
 
 provider:
@@ -34,12 +38,15 @@ provider:
   # stage: dev
 
 package:
-  individually: false
+  # individually: true
   include: 
-    - src/**
+    - src/team4lambda/**
+    - app.py
   exclude:
     - "*"
     - "*/**"
+  # excludeDevDependencies: false
+
 
 functions:
   ETL:
@@ -48,20 +55,24 @@ functions:
         - sg-0afcfd2a983b80407
       subnetIds:
         - subnet-0f0145739a0011749
-    handler: src/team4-sls/app.handle
+        - subnet-0b5a9c546fd7ca400
+        - subnet-026cbc956a6cc5592
+    handler: app.handle
+    # package:
+    #   include:
+    #     - src/team4lambda/**
     layers:
       - Ref: PythonRequirementsLambdaLayer
     timeout: 300
     role: arn:aws:iam::351115496094:role/data-project-lambda-role
     events:
       - s3:
-          bucket: team-4-project
+          bucket: delon3-team-4-bucket
           event: 
             - s3:ObjectCreated:*
           rules:
             - suffix: .csv
           existing: true
-      
     
   
 resources:
