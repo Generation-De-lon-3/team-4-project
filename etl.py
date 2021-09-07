@@ -1,11 +1,26 @@
+import boto3
+import numpy
 import pandas as pd
-import psycopg2
-# import products
-# import sql
-# import json
 
-def app():
-    cafe_data = pd.read_csv('data/birmingham_31-08-2021_09-00-00.csv', names=["order_timestamp", "branch", "customer", "basket", "payment_total", "payment_method", "card_type"], na_filter=False)
+def cafe_dict():
+    
+    # # Get key and bucket information
+    # key = event['Records'][0]['s3']['object']['key']
+    # bucket = event['Records'][0]['s3']['bucket']['name']
+    
+    # # use boto3 library to get object from S3
+    # s3_object = s3.get_object(Bucket=bucket, Key=key)
+    
+    
+    # data = s3_object['Body'].read().decode('utf-8')
+    # read CSV
+    # csv_data = csv.reader(data.splitlines())
+    # print(csv_data)
+    
+    
+    s3 = boto3.client('s3')
+    s3_object = s3.get_object(Bucket="delon3-team-4-bucket", Key="2021/8/31/birmingham_31-08-2021_09-00-00.csv")
+    cafe_data = pd.read_csv(s3_object["Body"], sep=",", names=["order_timestamp", "branch_name", "customer", "basket", "payment_total", "payment_method", "card_type"])
 
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
     cafe_data["payment_method"] = cafe_data["payment_method"].astype(str)
@@ -52,17 +67,5 @@ def app():
         
         item["card_type"] = "".join(['#' for x in item["card_type"][:-4]]) + item["card_type"][-4:]
         
-        # item["card_type"]= item["card_type"].replace("None", "")
-        
-    return cafe_dict
     
-    
-def connection():
-    connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
-    return connection
-
-def cafe_dict():
-    cafe_dict = app()
     return cafe_dict
-
-# app()

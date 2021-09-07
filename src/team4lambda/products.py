@@ -1,23 +1,23 @@
-import app
-# import json
+import conn
+import etl
 import pandas as pd
 
 
 def products():
 
-    connection = app.connection
+    connection = conn.connection()
     cursor = connection.cursor()
 
     baskets = []
 
-    for item in app.cafe_dict:
+    for item in etl.cafe_dict():
         for index, each in enumerate(item['basket']):
             baskets.append(item['basket'][index])
 
     baskets2 = [dict(tupleized) for tupleized in set(tuple(item.items()) for item in baskets)]
     baskets3 = pd.DataFrame(baskets2)
 
-    products = pd.read_sql_query("SELECT product_size, product_name, product_price FROM products", connection)
+    products = pd.read_sql_query("SELECT product_size, product_name, product_price FROM products;", connection)
     
     # print(baskets3)
     products['product_price'] = products['product_price'].apply(lambda x: "{:.2f}".format(x))
@@ -37,5 +37,3 @@ def products():
     cursor.close()
     connection.close()
 
-
-# products()

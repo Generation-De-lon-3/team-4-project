@@ -1,19 +1,20 @@
-import app
+import conn
+import etl
 import pandas as pd
 
 
 def payments():
 
-    connection = app.connection()
+    connection = conn.connection()
     cursor = connection.cursor()
 
 
-    cafe_data = pd.DataFrame(app.cafe_dict())
+    cafe_data = pd.DataFrame(etl.cafe_dict())
 
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 
-    orders = pd.read_sql_query("SELECT * FROM orders", connection)
-    payments = pd.read_sql_query("SELECT payment_id FROM payments", connection)
+    orders = pd.read_sql_query("SELECT * FROM orders;", connection)
+    payments = pd.read_sql_query("SELECT payment_id FROM payments;", connection)
 
     values = []
 
@@ -31,5 +32,4 @@ def payments():
         connection.commit()
     cursor.close()
     connection.close()
-
-# payments()
+    

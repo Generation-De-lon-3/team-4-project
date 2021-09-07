@@ -42,6 +42,8 @@ package:
   include: 
     - src/team4lambda/**
     - app.py
+    - etl.py
+    - conn.py
   exclude:
     - "*"
     - "*/**"

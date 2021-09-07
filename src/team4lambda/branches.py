@@ -1,24 +1,35 @@
-import app
+import conn
+import etl
 import pandas as pd
 
 
-def branches():
+def payments():
 
-    connection = app.connection()
+    connection = conn.connection()
     cursor = connection.cursor()
 
-    branches = pd.read_sql_query("SELECT branch_name FROM branches", connection)
+
+    cafe_data = pd.DataFrame(etl.cafe_dict())
+
+    cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
+
+    orders = pd.read_sql_query("SELECT * FROM orders;", connection)
+    payments = pd.read_sql_query("SELECT payment_id FROM payments;", connection)
 
     values = []
-    
-    for each in app.cafe_dict():
-        if each["branch"] not in branches.branch_name.values:
-            values.append(each['branch'])  
-    if values:       
-        cursor.execute(f"INSERT INTO branches (branch_name) VALUES {' ,'.join(values)};")
+
+    merged_data = pd.merge(cafe_data, orders, on="order_timestamp")
+
+    merged_dict = merged_data.to_dict('records')
+
+
+    for each in merged_dict:
+        if each["order_id"] not in payments.values:
+            values.append(f"('{each['order_id']}', '{each['payment_method']}', '{each['card_type']}', '{each['payment_total']}')")
+            
+    if values:
+        cursor.execute(f"INSERT INTO payments (payment_id, payment_method, card_type, payment_total) VALUES {' ,'.join(values)};")
         connection.commit()
     cursor.close()
     connection.close()
-
-
-branches()
+    
