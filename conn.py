@@ -1,6 +1,7 @@
 import boto3
 import psycopg2
 
+
 def connection():
     
     client = boto3.client('redshift', region_name='eu-west-1')
@@ -22,8 +23,7 @@ def connection():
         host=REDSHIFT_HOST,
         database=REDSHIFT_DATABASE,   
         port=5439)
-        
-        
+
     return connection
     
     

@@ -1,5 +1,4 @@
 import conn
-# import etl
 import pandas as pd
 
 
@@ -16,7 +15,6 @@ def branches(data):
         if each["branch_name"] not in branches.values and each["branch_name"] not in values:
             values.append(each['branch_name'])
         continue
-    
 
     if values:       
         cursor.execute("INSERT INTO branches (branch_name) VALUES ("+(' ,'.join(values).join(map(lambda x: "'" + x + "'", values))+");"))

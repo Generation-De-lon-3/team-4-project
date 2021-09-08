@@ -7,7 +7,6 @@ def baskets(data):
     connection = conn.connection()
     cursor = connection.cursor()
 
-
     orders = pd.read_sql_query("SELECT * FROM orders;", connection)
     products = pd.read_sql_query("SELECT * FROM products;", connection)
     baskets = pd.read_sql_query("SELECT order_id FROM baskets;", connection)
@@ -21,9 +20,7 @@ def baskets(data):
             for every in item["basket"]:
                 if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
                     every["product_id"] = each["product_id"]
-                    
-                    
-    
+
     cafe_data = pd.DataFrame(cafe)
 
     merged_data = pd.merge(cafe_data, orders, on="order_timestamp")
@@ -40,10 +37,9 @@ def baskets(data):
             final.append(f"{every['order_id']}, {entry['product_id']}")
             
     for entry in [*{*final}]:
-        entry = (f"({entry}, ") + (f"{str(final.count(entry))})")
+        entry = f"({entry}, " + f"{str(final.count(entry))})"
         values.append(entry)
 
-            
     if values:
         cursor.execute(f"INSERT INTO baskets (order_id, product_id, product_quantity) VALUES {' ,'.join(values)};")
         connection.commit()

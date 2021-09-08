@@ -7,8 +7,9 @@ from src.team4lambda import orders
 from src.team4lambda import baskets
 from src.team4lambda import payments
 
+
 def etl(data):
-    
+
     cafe_data = data
     
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"], format='%d/%m/%Y %H:%M')
@@ -16,10 +17,7 @@ def etl(data):
     cafe_data["card_type"] = cafe_data["card_type"].astype(str)
     del cafe_data["customer"] 
 
-    # print(cafe_data.dtypes)
-
     cafe_dict = cafe_data.to_dict('records')
-
 
     basket_fields = ['product_size', 'product_name', 'product_price']
 
@@ -50,7 +48,6 @@ def etl(data):
 
         item["card_type"] = item["card_type"].replace(".0", "")
         item["card_type"] = "".join(['#' for x in item["card_type"][:-4]]) + item["card_type"][-4:]
-        
     
     branches.branches(cafe_dict)
     products.products(cafe_dict)
