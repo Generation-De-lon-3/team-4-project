@@ -1,16 +1,16 @@
 import conn
-import etl
+# import etl
 import pandas as pd
 
 
-def products():
+def products(data):
 
     connection = conn.connection()
     cursor = connection.cursor()
 
     baskets = []
 
-    for item in etl.cafe_dict():
+    for item in data:
         for index, each in enumerate(item['basket']):
             baskets.append(item['basket'][index])
 
@@ -33,7 +33,5 @@ def products():
     for item in final:
         cursor.execute(f"INSERT INTO products (product_name, product_size, product_price) VALUES ('{item['product_name']}', '{item['product_size']}', {item['product_price']});")
         connection.commit()
-
     cursor.close()
     connection.close()
-

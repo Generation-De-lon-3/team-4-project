@@ -1,15 +1,15 @@
 import conn
-import etl
+# import etl
 import pandas as pd
 
 
-def payments():
+def payments(data):
 
     connection = conn.connection()
     cursor = connection.cursor()
 
 
-    cafe_data = pd.DataFrame(etl.cafe_dict())
+    cafe_data = pd.DataFrame(data)
 
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 

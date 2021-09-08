@@ -1,8 +1,8 @@
 import pandas as pd
 import conn
-import etl
+# import etl
 
-def orders():
+def orders(data):
     connection = conn.connection()
     cursor = connection.cursor()
 
@@ -12,7 +12,7 @@ def orders():
     # orders["order_timestamp"] = orders["order_timestamp"].astype(str)
 
 
-    cafe = pd.DataFrame(etl.cafe_dict())
+    cafe = pd.DataFrame(data)
     
     values = []
     
@@ -33,6 +33,6 @@ def orders():
 
     if values:
         cursor.execute(f"INSERT INTO orders (order_timestamp, branch_id) VALUES {' ,'.join(values)};")
-    connection.commit()
+        connection.commit()
     cursor.close()
     connection.close()
