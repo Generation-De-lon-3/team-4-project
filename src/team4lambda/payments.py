@@ -1,5 +1,4 @@
 import conn
-# import etl
 import pandas as pd
 
 
@@ -8,10 +7,7 @@ def payments(data):
     connection = conn.connection()
     cursor = connection.cursor()
 
-
     cafe_data = pd.DataFrame(data)
-
-    cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 
     orders = pd.read_sql_query("SELECT * FROM orders;", connection)
     payments = pd.read_sql_query("SELECT payment_id FROM payments;", connection)
@@ -19,9 +15,7 @@ def payments(data):
     values = []
 
     merged_data = pd.merge(cafe_data, orders, on="order_timestamp")
-
     merged_dict = merged_data.to_dict('records')
-
 
     for each in merged_dict:
         if each["order_id"] not in payments.values:

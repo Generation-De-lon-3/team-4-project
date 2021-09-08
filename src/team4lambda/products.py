@@ -18,16 +18,9 @@ def products(data):
     baskets3 = pd.DataFrame(baskets2)
 
     products = pd.read_sql_query("SELECT product_size, product_name, product_price FROM products;", connection)
-    
-    # print(baskets3)
     products['product_price'] = products['product_price'].apply(lambda x: "{:.2f}".format(x))
  
-    # print(baskets3)
-    # print(products)
- 
-    final = products.merge(baskets3, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'right_only']
-    # print(final)
-    
+    final = products.merge(baskets3, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'right_only']    
     final = final.to_dict('records')
     
     for item in final:

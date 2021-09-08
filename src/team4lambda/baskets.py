@@ -1,6 +1,6 @@
 import pandas as pd
 import conn
-# import etl
+
 
 def baskets(data):
 
@@ -13,28 +13,25 @@ def baskets(data):
     baskets = pd.read_sql_query("SELECT order_id FROM baskets;", connection)
 
     cafe = data
+    
     products_dict = products.to_dict("records")
 
     for each in products_dict:
         for item in cafe:
             for every in item["basket"]:
-                # print(every)
                 if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
                     every["product_id"] = each["product_id"]
                     
                     
     
     cafe_data = pd.DataFrame(cafe)
-    # cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"])
 
     merged_data = pd.merge(cafe_data, orders, on="order_timestamp")
 
     merged_dict = merged_data.to_dict('records')  
 
     final = []
-    values = []
-    
-
+    values = []    
 
     for every in merged_dict:
         for entry in every["basket"]:

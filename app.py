@@ -4,9 +4,6 @@ import pandas as pd
 import psycopg2
 import conn
 import etl
-# import sql
-# import json
-
 
 
 def handler(event, context):
