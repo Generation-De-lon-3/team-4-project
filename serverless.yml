@@ -51,7 +51,7 @@ package:
 
 
 functions:
-  ETL:
+  extract:
     vpc:
       securityGroupIds:
         - sg-0afcfd2a983b80407
@@ -75,6 +75,7 @@ functions:
           rules:
             - suffix: .csv
           existing: true
+  
     
   
 resources:
