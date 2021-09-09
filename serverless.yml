@@ -1,4 +1,4 @@
-service: team4-sls
+service: team4-sls-split
 
 
 plugins:
@@ -40,10 +40,7 @@ provider:
 package:
   # individually: true
   include: 
-    - src/team4lambda/**
-    - app.py
-    - etl.py
-    - conn.py
+    - src/**
   exclude:
     - "*"
     - "*/**"
@@ -52,20 +49,11 @@ package:
 
 functions:
   extract:
-    vpc:
-      securityGroupIds:
-        - sg-0afcfd2a983b80407
-      subnetIds:
-        - subnet-0f0145739a0011749
-        - subnet-0b5a9c546fd7ca400
-        - subnet-026cbc956a6cc5592
-    handler: app.handle
-    # package:
-    #   include:
-    #     - src/team4lambda/**
+    handler: src/extract/extract.handle
     layers:
       - Ref: PythonRequirementsLambdaLayer
     timeout: 300
+    # reservedConcurrency: 1
     role: arn:aws:iam::351115496094:role/data-project-lambda-role
     events:
       - s3:
@@ -75,7 +63,22 @@ functions:
           rules:
             - suffix: .csv
           existing: true
-  
+
+  load:
+    vpc:
+      securityGroupIds:
+        - sg-0afcfd2a983b80407
+      subnetIds:
+        - subnet-0f0145739a0011749
+        - subnet-0b5a9c546fd7ca400
+        - subnet-026cbc956a6cc5592
+    handler: src/load/load.handle
+    package:
+      include:
+        - src/load/**
+    timeout: 300
+    # reservedConcurrency: 1
+    role: arn:aws:iam::351115496094:role/data-project-lambda-role
     
   
 resources:
