@@ -45,4 +45,4 @@ def handle(event, context):
         item["card_type"] = item["card_type"].replace(".0", "")
         item["card_type"] = "".join(['#' for x in item["card_type"][:-4]]) + item["card_type"][-4:]
     
-
+        

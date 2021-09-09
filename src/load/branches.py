@@ -1,10 +1,10 @@
-import connection
 import pandas as pd
+from connection import connect
 
 
 def branches(data):
     
-    connection = conn.connection()
+    connection = connect()
     cursor = connection.cursor()
 
     branches = pd.read_sql_query("SELECT branch_name FROM branches;", connection)

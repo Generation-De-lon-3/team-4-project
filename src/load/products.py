@@ -1,10 +1,10 @@
-import connection
 import pandas as pd
+from connection import connect
 
 
 def products(data):
 
-    connection = conn.connection()
+    connection = connect()
     cursor = connection.cursor()
 
     baskets = []

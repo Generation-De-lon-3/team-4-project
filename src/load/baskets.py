@@ -1,10 +1,10 @@
 import pandas as pd
-import connection
+from connection import connect
 
 
 def baskets(data):
-
-    connection = conn.connection()
+    
+    connection = connect()
     cursor = connection.cursor()
 
     orders = pd.read_sql_query("SELECT * FROM orders;", connection)

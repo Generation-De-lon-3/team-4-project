@@ -1,9 +1,9 @@
 import pandas as pd
-import connection
+from connection import connect
 
 
 def orders(data):
-    connection = conn.connection()
+    connection = connect()
     cursor = connection.cursor()
 
     branches = pd.read_sql_query("SELECT * FROM branches", connection)

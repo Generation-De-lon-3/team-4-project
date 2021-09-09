@@ -1,10 +1,10 @@
-import connection
 import pandas as pd
+from connection import connect
 
 
 def payments(data):
 
-    connection = conn.connection()
+    connection = connect()
     cursor = connection.cursor()
 
     cafe_data = pd.DataFrame(data)
