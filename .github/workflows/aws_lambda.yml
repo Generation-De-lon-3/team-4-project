@@ -3,7 +3,7 @@ name: Deploy Lambda via Serverless
 on:
   push:
     branches:
-      - shauna
+      - main
 
 jobs:
   deploy:
