@@ -14,7 +14,7 @@ jobs:
         node-version: [14.x]
     
     steps:
-    - name: checkout team-4-repo
+    - name: checkout team-4-repository
       uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
