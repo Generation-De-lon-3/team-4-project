@@ -1,4 +1,5 @@
 import boto3
+import json
 from connection import initdb
 from branches import branches
 from products import products
@@ -7,14 +8,11 @@ from baskets import baskets
 from payments import payments
 
 def handle(event, handler):
-    key = event['Records'][0]['s3']['object']['key']
-    bucket = event['Records'][0]['s3']['bucket']['name']
     
-    s3 = boto3.client('s3')
-    s3_object = s3.get_object(Bucket=bucket, Key=key)
+    # print(event)
     
-    # data = 
-        
+    data = json.loads(event["Records"][0]["body"])
+    
     
     initdb()
     branches(data)

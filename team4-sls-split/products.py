@@ -1,10 +1,10 @@
 import pandas as pd
-from connection import connect
+from connection import conn
 
 
 def products(data):
 
-    connection = connect()
+    connection = conn()
     cursor = connection.cursor()
 
     baskets = []
@@ -20,9 +20,9 @@ def products(data):
     products['product_price'] = products['product_price'].apply(lambda x: "{:.2f}".format(x))
  
     final = products.merge(baskets3, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'right_only']    
-    final = final.to_dict('records')
+    productvalues = final.to_dict('records')
     
-    for item in final:
+    for item in productvalues:
         cursor.execute(f"INSERT INTO products (product_name, product_size, product_price) VALUES ('{item['product_name']}', '{item['product_size']}', {item['product_price']});")
         connection.commit()
     cursor.close()

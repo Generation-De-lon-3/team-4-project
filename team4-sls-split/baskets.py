@@ -1,10 +1,10 @@
 import pandas as pd
-from connection import connect
+from connection import conn
 
 
 def baskets(data):
     
-    connection = connect()
+    connection = conn()
     cursor = connection.cursor()
 
     orders = pd.read_sql_query("SELECT * FROM orders;", connection)
@@ -28,7 +28,7 @@ def baskets(data):
     merged_dict = merged_data.to_dict('records')  
 
     final = []
-    values = []    
+    basketvalues = []    
 
     for every in merged_dict:
         for entry in every["basket"]:
@@ -38,10 +38,10 @@ def baskets(data):
             
     for entry in [*{*final}]:
         entry = f"({entry}, " + f"{str(final.count(entry))})"
-        values.append(entry)
+        basketvalues.append(entry)
 
-    if values:
-        cursor.execute(f"INSERT INTO baskets (order_id, product_id, product_quantity) VALUES {' ,'.join(values)};")
+    if basketvalues:
+        cursor.execute(f"INSERT INTO baskets (order_id, product_id, product_quantity) VALUES {' ,'.join(basketvalues)};")
         connection.commit()
     cursor.close()
     connection.close()

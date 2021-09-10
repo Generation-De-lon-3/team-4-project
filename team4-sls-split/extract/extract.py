@@ -1,6 +1,8 @@
+import os
 import boto3
 import numpy
 import pandas as pd
+import json
 
 
 def handle(event, context):
@@ -12,6 +14,7 @@ def handle(event, context):
     cafe_data = pd.read_csv(s3_object["Body"], sep=",", names=["order_timestamp", "branch_name", "customer", "basket", "payment_total", "payment_method", "card_type"])
     
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"], format='%d/%m/%Y %H:%M')
+    cafe_data["order_timestamp"] = cafe_data["order_timestamp"].astype(str)
     cafe_data["payment_method"] = cafe_data["payment_method"].astype(str)
     cafe_data["card_type"] = cafe_data["card_type"].astype(str)
     del cafe_data["customer"] 
@@ -45,4 +48,12 @@ def handle(event, context):
         item["card_type"] = item["card_type"].replace(".0", "")
         item["card_type"] = "".join(['#' for x in item["card_type"][:-4]]) + item["card_type"][-4:]
     
+    
+    
+    sqs = boto3.client("sqs")
+
+    response = sqs.send_message(
+        QueueUrl = os.environ["QUEUE_URL"],
+        MessageBody=json.dumps(cafe_dict)
+        )
         

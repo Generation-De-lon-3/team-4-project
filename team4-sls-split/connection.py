@@ -2,7 +2,7 @@ import boto3
 import psycopg2
 
 
-def connect():
+def conn():
     
     client = boto3.client('redshift', region_name='eu-west-1')
 
@@ -29,7 +29,7 @@ def connect():
     
 def initdb():
     
-    connection = connect()
+    connection = conn()
     cursor = connection.cursor()
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS products (
