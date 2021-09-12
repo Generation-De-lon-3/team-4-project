@@ -1,21 +1,27 @@
-import app
 import psycopg2
+import pandas as pd
 
 
-connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
-cursor = connection.cursor()
 
 
-val = []
-
-
-for each in app.cafe_dict:
-    if each["branch"] not in val:
-        val.append(each["branch"])
+def branches(data):
     
-print(val)
+    connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
+    cursor = connection.cursor()
 
-cursor.execute(f"INSERT INTO branches (branch_name) VALUES ('{' ,'.join(val)}');")
-connection.commit()
-cursor.close()
-connection.close()
+
+    branches = pd.read_sql_query("SELECT branch_name FROM branches;", connection)
+
+    branchvalues = []
+    
+    for each in data:
+        if each["branch_name"] not in branches.values and each["branch_name"] not in branchvalues:
+            branchvalues.append(each['branch_name'])
+        continue
+
+    if branchvalues:       
+        cursor.execute("INSERT INTO branches (branch_name) VALUES ("+(' ,'.join(branchvalues).join(map(lambda x: "'" + x + "'", branchvalues))+");"))
+        connection.commit()
+    cursor.close()
+    connection.close()
+    

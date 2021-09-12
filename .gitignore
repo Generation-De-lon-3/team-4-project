@@ -1,6 +1,8 @@
-.serverless
+__pycache__
+.DS_Store
 .venv
 .vscode
-node_modules
-package.json
-package-lock.json
+.idea
+.gitignore
+data/
+
