@@ -1,0 +1,531 @@
+01/09/2021 08:00,London Brixton,Carmen Jones,"Regular Cappuccino - 2.15, Regular Smoothies - Carrot Kick - 2.00, Regular Iced americano - 2.15",6.3,CASH,
+01/09/2021 08:00,London Brixton,Armand Galvan,"Large Iced americano - 2.50, Large Espresso - 1.80",4.3,CASH,
+01/09/2021 08:01,London Brixton,James Jackson,"Large Cappuccino - 2.45, Large Frappes - Strawberries & Cream - 3.25, Large Frappes - Strawberries & Cream - 3.25",8.95,CARD,8065484237608682
+01/09/2021 08:02,London Brixton,Charles Imfeld,Regular Frappes - Strawberries & Cream - 2.75,2.75,CASH,
+01/09/2021 08:03,London Brixton,Marie Patrick,"Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50",4.1,CARD,9327549190167094
+01/09/2021 08:04,London Brixton,Brenda Murphy,"Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15, Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60",8.6,CASH,
+01/09/2021 08:05,London Brixton,Susan Webber,"Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Carrot Kick - 2.50",4.5,CARD,9332068239067787
+01/09/2021 08:06,London Brixton,Alfred Austin,Regular Hot chocolate - 2.20,2.2,CASH,
+01/09/2021 08:07,London Brixton,Russell Baez,"Regular Hot chocolate - 2.20, Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Large Iced americano - 2.50, Regular Smoothies - Glowing Greens - 2.00",11.6,CARD,8173332058928814
+01/09/2021 08:08,London Brixton,Lucy Clayton,"Regular Cappuccino - 2.15, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60",7.85,CARD,9876180894455586
+01/09/2021 08:09,London Brixton,Paul Morales,"Regular Smoothies - Carrot Kick - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50, Regular Smoothies - Glowing Greens - 2.00",8.25,CARD,3966450963342784
+01/09/2021 08:10,London Brixton,Robert Sprague,Large Frappes - Strawberries & Cream - 3.25,3.25,CASH,
+01/09/2021 08:11,London Brixton,Shannon Hanson,"Large Smoothies - Carrot Kick - 2.50, Large Iced americano - 2.50, Regular Iced americano - 2.15, Regular Cappuccino - 2.15",9.3,CASH,
+01/09/2021 08:12,London Brixton,Julia Powell,Regular Cappuccino - 2.15,2.15,CARD,7670758693211135
+01/09/2021 08:13,London Brixton,Laura Matson,"Large Smoothies - Carrot Kick - 2.50, Large Frappes - Strawberries & Cream - 3.25, Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Carrot Kick - 2.00, Large Hot chocolate - 2.90",14.85,CARD,4931779474915278
+01/09/2021 08:14,London Brixton,Marcia Dobson,Large Espresso - 1.80,1.8,CARD,1880351563780347
+01/09/2021 08:15,London Brixton,Sherry Herndon,"Regular Hot chocolate - 2.20, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",5.95,CARD,8463236849770186
+01/09/2021 08:16,London Brixton,Sheila Francis,"Regular Cappuccino - 2.15, Regular Hot chocolate - 2.20, Regular Cappuccino - 2.15, Regular Espresso - 1.50",8.0,CARD,5756150277190951
+01/09/2021 08:17,London Brixton,Jacob Faurrieta,"Regular Hot chocolate - 2.20, Regular Hot chocolate - 2.20, Large Smoothies - Carrot Kick - 2.50, Large Espresso - 1.80",8.7,CARD,7621272274528952
+01/09/2021 08:18,London Brixton,Frederick Hernandez,"Regular Cappuccino - 2.15, Large Smoothies - Glowing Greens - 2.50",4.65,CARD,8139772274949144
+01/09/2021 08:19,London Brixton,Earl Waldo,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,1579930067898244
+01/09/2021 08:20,London Brixton,Sharon Barnes,Regular Iced americano - 2.15,2.15,CARD,6319219317304008
+01/09/2021 08:21,London Brixton,Gloria Butler,Regular Espresso - 1.50,1.5,CARD,4739829855801429
+01/09/2021 08:22,London Brixton,Freddy Valencia,"Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Glowing Greens - 2.50, Regular Iced americano - 2.15",5.95,CARD,5484073207422295
+01/09/2021 08:23,London Brixton,Jaime Pratt,Large Speciality Tea - Earl Grey - 1.60,1.6,CASH,
+01/09/2021 08:24,London Brixton,Vicente Spindler,"Large Smoothies - Glowing Greens - 2.50, Large Iced americano - 2.50, Regular Hot chocolate - 2.20",7.2,CASH,
+01/09/2021 08:25,London Brixton,Rosemary Couts,"Regular Speciality Tea - Earl Grey - 1.30, Large Iced americano - 2.50",3.8,CARD,1265731935335558
+01/09/2021 08:26,London Brixton,Jerry Morales,"Regular Iced americano - 2.15, Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00",5.65,CASH,
+01/09/2021 08:27,London Brixton,Catherine Mcgowan,"Large Cappuccino - 2.45, Regular Smoothies - Carrot Kick - 2.00, Regular Iced americano - 2.15",6.6,CARD,8531518898746061
+01/09/2021 08:28,London Brixton,Heather Dorman,"Large Cappuccino - 2.45, Regular Speciality Tea - Earl Grey - 1.30, Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Large Speciality Tea - Earl Grey - 1.60",10.4,CARD,9041511405173944
+01/09/2021 08:29,London Brixton,Lorenzo Acosta,"Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Glowing Greens - 2.50",5.25,CARD,9962289796436107
+01/09/2021 08:30,London Brixton,Charlotte Proctor,"Regular Smoothies - Carrot Kick - 2.00, Regular Hot chocolate - 2.20, Large Speciality Tea - Earl Grey - 1.60",5.8,CASH,
+01/09/2021 08:31,London Brixton,Rebecca Ricciardi,Regular Smoothies - Glowing Greens - 2.00,2.0,CARD,4489859304976299
+01/09/2021 08:32,London Brixton,Christopher Kher,"Regular Smoothies - Carrot Kick - 2.00, Regular Espresso - 1.50",3.5,CARD,7519180133091296
+01/09/2021 08:33,London Brixton,Doris Glover,"Regular Hot chocolate - 2.20, Regular Iced americano - 2.15",4.35,CASH,
+01/09/2021 08:34,London Brixton,Ricardo Hudson,"Regular Espresso - 1.50, Large Espresso - 1.80, Regular Smoothies - Carrot Kick - 2.00",5.3,CASH,
+01/09/2021 08:35,London Brixton,Cynthia Hurst,"Regular Smoothies - Carrot Kick - 2.00, Large Iced americano - 2.50",4.5,CASH,
+01/09/2021 08:36,London Brixton,Dorothy Mcgrath,"Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90, Large Iced americano - 2.50",7.4,CASH,
+01/09/2021 08:37,London Brixton,Rodney Heflin,Large Espresso - 1.80,1.8,CARD,1616719395829974
+01/09/2021 08:38,London Brixton,James Kennedy,"Large Espresso - 1.80, Regular Iced americano - 2.15, Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00",8.45,CARD,9317844897989507
+01/09/2021 08:39,London Brixton,Wayne Hern,Large Iced americano - 2.50,2.5,CARD,6609185726279631
+01/09/2021 08:40,London Brixton,Manuel Brown,"Large Smoothies - Glowing Greens - 2.50, Regular Speciality Tea - Earl Grey - 1.30",3.8,CASH,
+01/09/2021 08:41,London Brixton,Sheila Boland,Regular Hot chocolate - 2.20,2.2,CARD,6566489947138420
+01/09/2021 08:42,London Brixton,Eric Williams,"Large Speciality Tea - Earl Grey - 1.60, Large Hot chocolate - 2.90, Large Smoothies - Glowing Greens - 2.50, Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00",11.9,CARD,6612464961349379
+01/09/2021 08:43,London Brixton,Deborah Hernandez,"Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60",4.85,CARD,8661861818869546
+01/09/2021 08:44,London Brixton,Mercedes Williams,Large Frappes - Strawberries & Cream - 3.25,3.25,CASH,
+01/09/2021 08:45,London Brixton,Frank Phillips,"Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Carrot Kick - 2.50, Regular Cappuccino - 2.15, Large Cappuccino - 2.45",9.85,CASH,
+01/09/2021 08:46,London Brixton,Emily Sells,"Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00, Regular Hot chocolate - 2.20, Large Speciality Tea - Earl Grey - 1.60",9.8,CASH,
+01/09/2021 08:47,London Brixton,Ada Batiste,Large Smoothies - Carrot Kick - 2.50,2.5,CARD,4848391676769012
+01/09/2021 08:48,London Brixton,Jeffrey Tomlinson,"Large Iced americano - 2.50, Large Speciality Tea - Earl Grey - 1.60",4.1,CASH,
+01/09/2021 08:49,London Brixton,Everett Wilson,"Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Regular Hot chocolate - 2.20, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Glowing Greens - 2.50, Regular Iced americano - 2.15",13.2,CASH,
+01/09/2021 08:50,London Brixton,Joe Austin,"Regular Speciality Tea - Earl Grey - 1.30, Large Speciality Tea - Earl Grey - 1.60",2.9,CARD,1611900151967760
+01/09/2021 08:51,London Brixton,Jessica Lorenz,"Regular Iced americano - 2.15, Regular Smoothies - Carrot Kick - 2.00, Regular Frappes - Strawberries & Cream - 2.75",6.9,CARD,4225942518088841
+01/09/2021 08:52,London Brixton,Nina Lewis,"Large Cappuccino - 2.45, Large Smoothies - Carrot Kick - 2.50, Regular Hot chocolate - 2.20, Large Smoothies - Glowing Greens - 2.50",9.65,CARD,9348789578189665
+01/09/2021 08:53,London Brixton,Craig Woods,"Large Speciality Tea - Earl Grey - 1.60, Regular Espresso - 1.50, Regular Cappuccino - 2.15",5.25,CASH,
+01/09/2021 08:54,London Brixton,Michael Haynes,"Large Hot chocolate - 2.90, Large Speciality Tea - Earl Grey - 1.60, Regular Cappuccino - 2.15, Regular Cappuccino - 2.15, Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30",12.1,CARD,4783307918490491
+01/09/2021 08:55,London Brixton,Joseph Graham,Regular Iced americano - 2.15,2.15,CARD,7991307134057947
+01/09/2021 08:56,London Brixton,Philip Carter,"Large Speciality Tea - Earl Grey - 1.60, Regular Hot chocolate - 2.20",3.8,CARD,1061451064905703
+01/09/2021 08:57,London Brixton,Raymond Dore,"Regular Frappes - Strawberries & Cream - 2.75, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80",11.85,CARD,6214829347222521
+01/09/2021 08:58,London Brixton,Donald Searcy,"Large Hot chocolate - 2.90, Regular Espresso - 1.50, Large Speciality Tea - Earl Grey - 1.60, Regular Frappes - Strawberries & Cream - 2.75",8.75,CARD,2529327234014421
+01/09/2021 08:59,London Brixton,Pamela Mike,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,9830031279650028
+01/09/2021 08:59,London Brixton,John Noble,"Regular Smoothies - Glowing Greens - 2.00, Large Espresso - 1.80",3.8,CASH,
+01/09/2021 09:00,London Brixton,Tammy Ryerson,"Regular Hot chocolate - 2.20, Large Smoothies - Glowing Greens - 2.50",4.7,CARD,1535151524088342
+01/09/2021 09:02,London Brixton,Jerry Martinez,"Large Iced americano - 2.50, Large Smoothies - Carrot Kick - 2.50, Regular Cappuccino - 2.15, Regular Espresso - 1.50, Regular Hot chocolate - 2.20",10.85,CARD,2890837343571395
+01/09/2021 09:03,London Brixton,Justin Colace,"Regular Frappes - Strawberries & Cream - 2.75, Regular Speciality Tea - Earl Grey - 1.30",4.05,CARD,4344628588247527
+01/09/2021 09:04,London Brixton,Cindy Holland,Regular Smoothies - Carrot Kick - 2.00,2.0,CARD,2077468318859111
+01/09/2021 09:05,London Brixton,Louis Studdard,"Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15, Large Speciality Tea - Earl Grey - 1.60",6.95,CARD,3775178236612395
+01/09/2021 09:06,London Brixton,Myron Welsh,"Regular Hot chocolate - 2.20, Large Espresso - 1.80, Large Espresso - 1.80, Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",11.8,CASH,
+01/09/2021 09:07,London Brixton,Josephine Falk,"Large Frappes - Strawberries & Cream - 3.25, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50, Large Iced americano - 2.50, Large Espresso - 1.80",12.95,CASH,
+01/09/2021 09:09,London Brixton,Robert Hayter,"Regular Cappuccino - 2.15, Large Cappuccino - 2.45, Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80",7.7,CASH,
+01/09/2021 09:10,London Brixton,Bonnie Bobo,"Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50, Large Iced americano - 2.50",8.9,CASH,
+01/09/2021 09:11,London Brixton,James Serrano,"Regular Hot chocolate - 2.20, Large Espresso - 1.80, Large Espresso - 1.80",5.8,CARD,2883209728202582
+01/09/2021 09:12,London Brixton,Thomas Marchant,"Regular Cappuccino - 2.15, Regular Iced americano - 2.15",4.3,CASH,
+01/09/2021 09:13,London Brixton,Lori Bond,"Regular Iced americano - 2.15, Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Carrot Kick - 2.50, Regular Cappuccino - 2.15",8.8,CARD,6956708550067096
+01/09/2021 09:14,London Brixton,Maribel White,"Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45, Large Iced americano - 2.50, Large Cappuccino - 2.45, Regular Espresso - 1.50",10.2,CARD,6202063254468566
+01/09/2021 09:16,London Brixton,Darrel Davis,"Regular Hot chocolate - 2.20, Regular Smoothies - Carrot Kick - 2.00, Large Frappes - Strawberries & Cream - 3.25, Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50",12.1,CARD,3006338787002138
+01/09/2021 09:17,London Brixton,Dorothy Niese,Regular Frappes - Strawberries & Cream - 2.75,2.75,CARD,5830925947778772
+01/09/2021 09:18,London Brixton,Sam Miller,"Regular Iced americano - 2.15, Regular Hot chocolate - 2.20, Large Hot chocolate - 2.90, Large Espresso - 1.80",9.05,CASH,
+01/09/2021 09:19,London Brixton,Pam Halsey,"Large Iced americano - 2.50, Large Iced americano - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Cappuccino - 2.15",8.75,CARD,9187890861102861
+01/09/2021 09:20,London Brixton,Vincent Kramer,"Regular Hot chocolate - 2.20, Large Smoothies - Glowing Greens - 2.50, Regular Frappes - Strawberries & Cream - 2.75",7.45,CARD,8591448697309853
+01/09/2021 09:21,London Brixton,Lindsay Obrien,"Large Iced americano - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Large Iced americano - 2.50",9.8,CARD,5624011183551111
+01/09/2021 09:23,London Brixton,Rosalyn Belkowski,"Large Frappes - Strawberries & Cream - 3.25, Large Cappuccino - 2.45, Large Smoothies - Glowing Greens - 2.50, Large Cappuccino - 2.45",10.65,CARD,1180766627970956
+01/09/2021 09:24,London Brixton,Gary Strong,"Large Hot chocolate - 2.90, Large Cappuccino - 2.45, Large Iced americano - 2.50",7.85,CASH,
+01/09/2021 09:25,London Brixton,Liz Nghiem,"Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50, Large Cappuccino - 2.45",5.95,CARD,8137904982458491
+01/09/2021 09:26,London Brixton,Kyle Bement,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,6986670253621209
+01/09/2021 09:27,London Brixton,Timothy Milliren,Large Speciality Tea - Earl Grey - 1.60,1.6,CASH,
+01/09/2021 09:28,London Brixton,Flora Wilson,Large Iced americano - 2.50,2.5,CARD,7684791170936503
+01/09/2021 09:30,London Brixton,Jerry Kaauamo,"Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Glowing Greens - 2.00, Large Espresso - 1.80",7.05,CARD,6814535556199294
+01/09/2021 09:31,London Brixton,Shirley Devine,"Large Hot chocolate - 2.90, Regular Hot chocolate - 2.20, Regular Iced americano - 2.15, Large Cappuccino - 2.45",9.7,CARD,7099837429043984
+01/09/2021 09:32,London Brixton,Eddie Kriese,"Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00",7.05,CARD,4173091919051029
+01/09/2021 09:33,London Brixton,Catherine Helmick,"Regular Espresso - 1.50, Large Iced americano - 2.50, Regular Iced americano - 2.15, Regular Hot chocolate - 2.20",8.35,CARD,2566888743913003
+01/09/2021 09:34,London Brixton,Susan Saucier,"Large Iced americano - 2.50, Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30, Large Frappes - Strawberries & Cream - 3.25",9.05,CARD,5494886058539746
+01/09/2021 09:35,London Brixton,Olga Elliott,"Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Carrot Kick - 2.00",5.6,CASH,
+01/09/2021 09:37,London Brixton,Helen Merritt,"Regular Hot chocolate - 2.20, Large Cappuccino - 2.45",4.65,CASH,
+01/09/2021 09:38,London Brixton,David Hernandez,"Large Iced americano - 2.50, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25, Regular Espresso - 1.50, Large Iced americano - 2.50, Large Frappes - Strawberries & Cream - 3.25",15.15,CARD,8423860761794585
+01/09/2021 09:39,London Brixton,William Obeso,Regular Espresso - 1.50,1.5,CARD,8472642523551546
+01/09/2021 09:40,London Brixton,Gail Burnside,"Large Speciality Tea - Earl Grey - 1.60, Large Cappuccino - 2.45",4.05,CASH,
+01/09/2021 09:41,London Brixton,Suzanne Kappeler,"Regular Cappuccino - 2.15, Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00",7.05,CASH,
+01/09/2021 09:42,London Brixton,Bonnie Floyd,"Regular Cappuccino - 2.15, Regular Smoothies - Glowing Greens - 2.00, Large Speciality Tea - Earl Grey - 1.60",5.75,CASH,
+01/09/2021 09:44,London Brixton,Bryan Pendleton,"Large Espresso - 1.80, Regular Cappuccino - 2.15",3.95,CARD,8021771200456017
+01/09/2021 09:45,London Brixton,Joel Brown,"Regular Smoothies - Glowing Greens - 2.00, Large Cappuccino - 2.45, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25",9.85,CASH,
+01/09/2021 09:46,London Brixton,Mary Belle,Regular Hot chocolate - 2.20,2.2,CARD,9531195527879031
+01/09/2021 09:47,London Brixton,Shante Percy,"Large Cappuccino - 2.45, Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",7.5,CARD,8778565644341446
+01/09/2021 09:48,London Brixton,John Jones,"Regular Smoothies - Carrot Kick - 2.00, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50, Large Cappuccino - 2.45",8.55,CARD,6890889830094969
+01/09/2021 09:49,London Brixton,Loretta Kelly,"Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Glowing Greens - 2.50, Regular Speciality Tea - Earl Grey - 1.30",8.55,CASH,
+01/09/2021 09:51,London Brixton,Julia Joubert,"Large Iced americano - 2.50, Regular Espresso - 1.50",4.0,CARD,8490506627997256
+01/09/2021 09:52,London Brixton,Renaldo George,"Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00, Large Iced americano - 2.50",8.1,CASH,
+01/09/2021 09:53,London Brixton,Manuel Brown,"Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00, Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Glowing Greens - 2.50",10.5,CARD,1179442084719669
+01/09/2021 09:54,London Brixton,Ariana Haney,"Regular Iced americano - 2.15, Large Cappuccino - 2.45, Regular Iced americano - 2.15",6.75,CARD,1946401640813045
+01/09/2021 09:55,London Brixton,Bessie Bass,"Large Cappuccino - 2.45, Regular Cappuccino - 2.15, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60",8.65,CARD,1367278617741109
+01/09/2021 09:56,London Brixton,Nicholas Starks,"Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50",10.7,CASH,
+01/09/2021 09:58,London Brixton,Dorothy Harper,"Large Smoothies - Glowing Greens - 2.50, Large Smoothies - Carrot Kick - 2.50, Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Frappes - Strawberries & Cream - 2.75",11.85,CASH,
+01/09/2021 09:59,London Brixton,Lisa Cummings,"Large Speciality Tea - Earl Grey - 1.60, Regular Speciality Tea - Earl Grey - 1.30",2.9,CARD,3936236831500861
+01/09/2021 10:00,London Brixton,Suzanne Bagdon,Large Espresso - 1.80,1.8,CARD,3863697612247067
+01/09/2021 10:01,London Brixton,Viola Cohen,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,3388192845376910
+01/09/2021 10:02,London Brixton,Sheila Cornely,"Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",6.0,CASH,
+01/09/2021 10:03,London Brixton,Joseph Roberts,Large Iced americano - 2.50,2.5,CARD,6286831937959633
+01/09/2021 10:05,London Brixton,Ana Ash,"Regular Espresso - 1.50, Large Smoothies - Carrot Kick - 2.50, Regular Espresso - 1.50, Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00",12.4,CARD,6400956324415056
+01/09/2021 10:06,London Brixton,Fannie Perez,"Large Iced americano - 2.50, Regular Iced americano - 2.15, Large Cappuccino - 2.45",7.1,CARD,1077499256937524
+01/09/2021 10:07,London Brixton,Guy Burris,"Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30",3.3,CARD,5028684244735015
+01/09/2021 10:08,London Brixton,Colleen Wheeler,"Regular Smoothies - Carrot Kick - 2.00, Regular Smoothies - Carrot Kick - 2.00",4.0,CASH,
+01/09/2021 10:09,London Brixton,Jennifer Forest,Regular Iced americano - 2.15,2.15,CARD,1461865702600456
+01/09/2021 10:10,London Brixton,Allan Davis,"Regular Speciality Tea - Earl Grey - 1.30, Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20",6.25,CARD,3552191451369327
+01/09/2021 10:12,London Brixton,Roger Jaffe,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,7008634960078163
+01/09/2021 10:13,London Brixton,Thomas Hickman,"Large Speciality Tea - Earl Grey - 1.60, Regular Speciality Tea - Earl Grey - 1.30",2.9,CARD,1263038954828439
+01/09/2021 10:14,London Brixton,Kelly Neely,"Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00, Regular Iced americano - 2.15, Large Espresso - 1.80",7.95,CARD,7623859746131741
+01/09/2021 10:15,London Brixton,Carl Kina,"Regular Frappes - Strawberries & Cream - 2.75, Large Hot chocolate - 2.90",5.65,CARD,6613166270386695
+01/09/2021 10:16,London Brixton,John Cherenfant,"Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30",2.6,CASH,
+01/09/2021 10:17,London Brixton,Tanya Creed,Regular Frappes - Strawberries & Cream - 2.75,2.75,CARD,6608156075230204
+01/09/2021 10:19,London Brixton,Samuel Carrel,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,5670365927809878
+01/09/2021 10:20,London Brixton,Joseph Mckinney,"Regular Espresso - 1.50, Large Frappes - Strawberries & Cream - 3.25",4.75,CARD,1484878648901600
+01/09/2021 10:21,London Brixton,Jeffrey Diaz,"Large Iced americano - 2.50, Regular Hot chocolate - 2.20, Large Smoothies - Carrot Kick - 2.50",7.2,CASH,
+01/09/2021 10:22,London Brixton,Jodi Moore,"Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15, Large Iced americano - 2.50",6.25,CARD,5556441939037895
+01/09/2021 10:23,London Brixton,Nora Payne,"Large Smoothies - Glowing Greens - 2.50, Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Glowing Greens - 2.50",7.0,CASH,
+01/09/2021 10:24,London Brixton,Valerie Hall,"Large Frappes - Strawberries & Cream - 3.25, Large Cappuccino - 2.45",5.7,CASH,
+01/09/2021 10:26,London Brixton,Patricia Lange,"Large Iced americano - 2.50, Regular Iced americano - 2.15, Regular Espresso - 1.50",6.15,CARD,9533374584532662
+01/09/2021 10:27,London Brixton,Helen Rickel,"Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30",5.2,CASH,
+01/09/2021 10:28,London Brixton,Stephanie Pittman,Regular Hot chocolate - 2.20,2.2,CARD,8072517848189985
+01/09/2021 10:29,London Brixton,Modesta Berry,Large Espresso - 1.80,1.8,CASH,
+01/09/2021 10:30,London Brixton,Gerry Carter,"Regular Iced americano - 2.15, Regular Iced americano - 2.15",4.3,CASH,
+01/09/2021 10:31,London Brixton,John Brooks,Regular Iced americano - 2.15,2.15,CARD,5542617215116450
+01/09/2021 10:33,London Brixton,Thomas Mcbath,"Large Espresso - 1.80, Regular Cappuccino - 2.15",3.95,CARD,6748040313702064
+01/09/2021 10:34,London Brixton,Jennifer Rivera,"Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Carrot Kick - 2.50",7.75,CARD,9729232284893571
+01/09/2021 10:35,London Brixton,Pamela Larsen,Large Frappes - Strawberries & Cream - 3.25,3.25,CARD,4550913873829475
+01/09/2021 10:36,London Brixton,Wilma Harrison,Large Smoothies - Carrot Kick - 2.50,2.5,CASH,
+01/09/2021 10:37,London Brixton,Susan Beam,"Large Iced americano - 2.50, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00",6.5,CARD,3408879362536998
+01/09/2021 10:38,London Brixton,Cynthia Moses,"Large Smoothies - Carrot Kick - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30",7.2,CARD,9791653655382981
+01/09/2021 10:40,London Brixton,Toni North,"Large Iced americano - 2.50, Large Cappuccino - 2.45",4.95,CARD,5695903913363503
+01/09/2021 10:41,London Brixton,Anthony Magill,"Regular Cappuccino - 2.15, Regular Iced americano - 2.15",4.3,CARD,3434044253177273
+01/09/2021 10:42,London Brixton,Warren Howell,"Regular Espresso - 1.50, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50, Large Frappes - Strawberries & Cream - 3.25",11.3,CARD,4785742722254069
+01/09/2021 10:43,London Brixton,Robin Barton,"Regular Hot chocolate - 2.20, Large Cappuccino - 2.45",4.65,CASH,
+01/09/2021 10:44,London Brixton,Alicia Hiller,Large Iced americano - 2.50,2.5,CARD,5884301218929597
+01/09/2021 10:45,London Brixton,Marvin Edwards,"Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50, Large Iced americano - 2.50, Regular Hot chocolate - 2.20",8.2,CARD,6047049151002411
+01/09/2021 10:47,London Brixton,Thomas Banda,Large Cappuccino - 2.45,2.45,CARD,7668888615899366
+01/09/2021 10:48,London Brixton,Pedro Newman,"Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90",6.7,CASH,
+01/09/2021 10:49,London Brixton,Lourdes Bloxham,"Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",11.05,CARD,8483195549596664
+01/09/2021 10:50,London Brixton,Marcia Cathcart,Large Iced americano - 2.50,2.5,CASH,
+01/09/2021 10:51,London Brixton,Anna Tiedeman,"Large Speciality Tea - Earl Grey - 1.60, Regular Speciality Tea - Earl Grey - 1.30, Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80, Large Frappes - Strawberries & Cream - 3.25",11.2,CASH,
+01/09/2021 10:52,London Brixton,James Lee,"Regular Hot chocolate - 2.20, Large Smoothies - Carrot Kick - 2.50",4.7,CARD,3216298685639476
+01/09/2021 10:54,London Brixton,Heather Roa,Regular Iced americano - 2.15,2.15,CARD,7279814460201785
+01/09/2021 10:55,London Brixton,Margaret Lopez,"Regular Speciality Tea - Earl Grey - 1.30, Regular Frappes - Strawberries & Cream - 2.75, Large Frappes - Strawberries & Cream - 3.25",7.3,CARD,4655658816962403
+01/09/2021 10:56,London Brixton,John Christian,Regular Speciality Tea - Earl Grey - 1.30,1.3,CASH,
+01/09/2021 10:57,London Brixton,Charles Murray,"Large Iced americano - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50, Large Speciality Tea - Earl Grey - 1.60",7.9,CARD,4171092702801365
+01/09/2021 10:58,London Brixton,Gilbert Lasala,"Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80, Regular Iced americano - 2.15",5.25,CARD,1491341758384145
+01/09/2021 10:59,London Brixton,Emilio Davidson,"Large Hot chocolate - 2.90, Regular Iced americano - 2.15",5.05,CARD,3158211673463322
+01/09/2021 11:01,London Brixton,Jimmie Faurrieta,"Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00, Large Speciality Tea - Earl Grey - 1.60",6.1,CARD,9104476260889766
+01/09/2021 11:03,London Brixton,James Brasfield,"Large Smoothies - Glowing Greens - 2.50, Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00, Large Iced americano - 2.50",9.5,CARD,3263521163777952
+01/09/2021 11:04,London Brixton,Mark Mcghee,"Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80",3.1,CARD,1716848426101515
+01/09/2021 11:06,London Brixton,Vivian Mathis,"Regular Cappuccino - 2.15, Regular Iced americano - 2.15",4.3,CARD,6094231688971101
+01/09/2021 11:08,London Brixton,Kristi Brown,"Regular Espresso - 1.50, Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Speciality Tea - Earl Grey - 1.30",12.15,CARD,8704277815294115
+01/09/2021 11:10,London Brixton,Gary Musson,"Regular Iced americano - 2.15, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Carrot Kick - 2.00, Large Hot chocolate - 2.90",9.05,CARD,1808377170913649
+01/09/2021 11:12,London Brixton,Heather Albright,"Regular Frappes - Strawberries & Cream - 2.75, Large Iced americano - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50, Large Frappes - Strawberries & Cream - 3.25",12.3,CARD,6285090407330961
+01/09/2021 11:14,London Brixton,Pamela Droke,"Regular Speciality Tea - Earl Grey - 1.30, Regular Iced americano - 2.15",3.45,CASH,
+01/09/2021 11:16,London Brixton,Arnold Frazier,"Regular Speciality Tea - Earl Grey - 1.30, Regular Hot chocolate - 2.20",3.5,CARD,6409680148916960
+01/09/2021 11:17,London Brixton,Tawny Giordano,"Regular Hot chocolate - 2.20, Regular Cappuccino - 2.15, Large Cappuccino - 2.45",6.8,CARD,9397493354493236
+01/09/2021 11:19,London Brixton,Renato Parras,"Large Cappuccino - 2.45, Regular Cappuccino - 2.15",4.6,CARD,6958622151678183
+01/09/2021 11:21,London Brixton,Georgia Bruce,Regular Smoothies - Carrot Kick - 2.00,2.0,CARD,2882729658123592
+01/09/2021 11:23,London Brixton,Samatha Spaulding,"Regular Cappuccino - 2.15, Large Espresso - 1.80, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00",7.55,CARD,9039494433688300
+01/09/2021 11:25,London Brixton,Gary Martin,"Large Espresso - 1.80, Large Hot chocolate - 2.90, Large Smoothies - Glowing Greens - 2.50, Regular Hot chocolate - 2.20",9.4,CARD,7660137675206772
+01/09/2021 11:27,London Brixton,Winifred Hogue,Large Smoothies - Carrot Kick - 2.50,2.5,CASH,
+01/09/2021 11:29,London Brixton,Chester Rowe,"Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50, Large Espresso - 1.80",12.95,CARD,9948248249764644
+01/09/2021 11:31,London Brixton,Miguel Worley,Regular Hot chocolate - 2.20,2.2,CASH,
+01/09/2021 11:32,London Brixton,Tara Liner,"Regular Espresso - 1.50, Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00",7.6,CARD,7193603819939652
+01/09/2021 11:34,London Brixton,Eva Long,"Regular Cappuccino - 2.15, Large Espresso - 1.80, Regular Cappuccino - 2.15",6.1,CARD,3917708176342935
+01/09/2021 11:36,London Brixton,Jack Milano,"Large Speciality Tea - Earl Grey - 1.60, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50",7.0,CASH,
+01/09/2021 11:38,London Brixton,Eleanor Mccarthy,"Regular Hot chocolate - 2.20, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50",6.0,CASH,
+01/09/2021 11:40,London Brixton,Ariel Fritz,"Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00",3.8,CARD,1036660242206127
+01/09/2021 11:42,London Brixton,Nancy Brown,"Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60",4.1,CARD,3300087382198658
+01/09/2021 11:44,London Brixton,Willie Stout,Large Hot chocolate - 2.90,2.9,CARD,5903863643343799
+01/09/2021 11:45,London Brixton,Vanessa Duty,"Regular Iced americano - 2.15, Large Hot chocolate - 2.90",5.05,CARD,3470668626828693
+01/09/2021 11:47,London Brixton,Michael Fry,"Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20",4.95,CARD,9109761608449114
+01/09/2021 11:49,London Brixton,Judith Hartley,"Large Smoothies - Carrot Kick - 2.50, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Carrot Kick - 2.00",6.5,CASH,
+01/09/2021 11:51,London Brixton,Patricia Leachman,"Large Iced americano - 2.50, Large Smoothies - Glowing Greens - 2.50, Large Smoothies - Carrot Kick - 2.50, Regular Frappes - Strawberries & Cream - 2.75",10.25,CARD,4188312712520571
+01/09/2021 11:53,London Brixton,Linda Clark,Large Hot chocolate - 2.90,2.9,CARD,1974990807359283
+01/09/2021 11:55,London Brixton,Floyd Crawford,Regular Smoothies - Glowing Greens - 2.00,2.0,CASH,
+01/09/2021 11:57,London Brixton,Richard Birkeland,"Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60",4.1,CASH,
+01/09/2021 11:59,London Brixton,Roy Killough,Regular Cappuccino - 2.15,2.15,CASH,
+01/09/2021 12:00,London Brixton,Kristina Johnson,"Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50, Large Smoothies - Glowing Greens - 2.50, Regular Cappuccino - 2.15, Large Hot chocolate - 2.90, Large Iced americano - 2.50",14.7,CARD,7702101179280441
+01/09/2021 12:02,London Brixton,Edward Foster,"Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20",4.95,CARD,5698160810126108
+01/09/2021 12:04,London Brixton,David Wong,"Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Carrot Kick - 2.00, Regular Cappuccino - 2.15",6.9,CASH,
+01/09/2021 12:06,London Brixton,Carolyn Collette,"Regular Speciality Tea - Earl Grey - 1.30, Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00",5.8,CARD,2876358388862614
+01/09/2021 12:08,London Brixton,Patricia Foster,Large Hot chocolate - 2.90,2.9,CASH,
+01/09/2021 12:10,London Brixton,Eric Johnston,"Large Hot chocolate - 2.90, Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",10.1,CARD,4601532504885400
+01/09/2021 12:12,London Brixton,Charles Bennett,"Large Frappes - Strawberries & Cream - 3.25, Regular Cappuccino - 2.15",5.4,CASH,
+01/09/2021 12:14,London Brixton,Herbert Wyland,"Regular Iced americano - 2.15, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Carrot Kick - 2.00, Large Espresso - 1.80",10.0,CARD,8755278959409060
+01/09/2021 12:16,London Brixton,Alice Moody,"Regular Hot chocolate - 2.20, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Regular Speciality Tea - Earl Grey - 1.30, Regular Hot chocolate - 2.20, Regular Hot chocolate - 2.20",11.95,CARD,5934269887935427
+01/09/2021 12:18,London Brixton,Mary Andersen,"Regular Iced americano - 2.15, Regular Cappuccino - 2.15, Regular Smoothies - Carrot Kick - 2.00, Large Iced americano - 2.50",8.8,CARD,6570647601774228
+01/09/2021 12:20,London Brixton,Elizabeth Perez,"Regular Hot chocolate - 2.20, Large Frappes - Strawberries & Cream - 3.25, Regular Hot chocolate - 2.20, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50",11.75,CARD,1995249261404589
+01/09/2021 12:22,London Brixton,Terry Rolon,"Large Espresso - 1.80, Regular Smoothies - Carrot Kick - 2.00, Regular Espresso - 1.50, Regular Cappuccino - 2.15",7.45,CARD,8807759662380237
+01/09/2021 12:24,London Brixton,Joshua Lewis,Regular Smoothies - Glowing Greens - 2.00,2.0,CARD,7407126536683415
+01/09/2021 12:26,London Brixton,Joe Lloyd,"Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00",6.8,CARD,5983859789241653
+01/09/2021 12:27,London Brixton,Michael Drew,"Regular Frappes - Strawberries & Cream - 2.75, Large Iced americano - 2.50, Large Speciality Tea - Earl Grey - 1.60",6.85,CASH,
+01/09/2021 12:29,London Brixton,Carolyne Zien,"Large Hot chocolate - 2.90, Large Frappes - Strawberries & Cream - 3.25, Large Hot chocolate - 2.90",9.05,CARD,2107935124610092
+01/09/2021 12:31,London Brixton,Richard Crumb,"Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50, Large Espresso - 1.80, Large Cappuccino - 2.45, Large Smoothies - Glowing Greens - 2.50",11.4,CARD,9853751027783731
+01/09/2021 12:33,London Brixton,Rhonda Gallegos,"Large Iced americano - 2.50, Large Cappuccino - 2.45",4.95,CARD,8844879569552868
+01/09/2021 12:35,London Brixton,Michael Brim,Regular Espresso - 1.50,1.5,CARD,2346455846138300
+01/09/2021 12:37,London Brixton,Mamie Wells,"Regular Cappuccino - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50",6.4,CARD,2800274716354181
+01/09/2021 12:39,London Brixton,Louise France,Regular Iced americano - 2.15,2.15,CARD,2977211373368327
+01/09/2021 12:41,London Brixton,Chelsea Little,"Large Smoothies - Carrot Kick - 2.50, Large Cappuccino - 2.45",4.95,CARD,4297791549863037
+01/09/2021 12:43,London Brixton,Anna Rogol,"Regular Smoothies - Carrot Kick - 2.00, Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30, Regular Iced americano - 2.15",7.6,CARD,1073976284571152
+01/09/2021 12:45,London Brixton,Michael Davis,Regular Iced americano - 2.15,2.15,CARD,6584123148873541
+01/09/2021 12:47,London Brixton,Shirley Gerstner,"Large Cappuccino - 2.45, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Glowing Greens - 2.00",7.2,CASH,
+01/09/2021 12:49,London Brixton,Darryl Ridenour,"Regular Speciality Tea - Earl Grey - 1.30, Regular Frappes - Strawberries & Cream - 2.75, Regular Cappuccino - 2.15",6.2,CARD,2627686477184106
+01/09/2021 12:51,London Brixton,Joseph Gajewski,"Regular Smoothies - Carrot Kick - 2.00, Regular Iced americano - 2.15, Regular Espresso - 1.50, Regular Espresso - 1.50, Large Iced americano - 2.50, Large Smoothies - Glowing Greens - 2.50",12.15,CASH,
+01/09/2021 12:53,London Brixton,Lillian Cyr,Large Cappuccino - 2.45,2.45,CARD,4766582122169854
+01/09/2021 12:55,London Brixton,Dianne Russell,"Large Frappes - Strawberries & Cream - 3.25, Large Frappes - Strawberries & Cream - 3.25, Large Smoothies - Carrot Kick - 2.50, Large Hot chocolate - 2.90",11.9,CASH,
+01/09/2021 12:56,London Brixton,Edward Foster,Regular Espresso - 1.50,1.5,CARD,9863627037594130
+01/09/2021 12:58,London Brixton,Bobby Grossman,"Large Iced americano - 2.50, Large Smoothies - Carrot Kick - 2.50",5.0,CARD,6466500813630867
+01/09/2021 13:00,London Brixton,Danny Anderson,"Regular Iced americano - 2.15, Large Frappes - Strawberries & Cream - 3.25, Regular Iced americano - 2.15",7.55,CARD,5756860640706791
+01/09/2021 13:01,London Brixton,Steven Johnson,"Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30, Large Speciality Tea - Earl Grey - 1.60",6.7,CARD,4488374520375978
+01/09/2021 13:02,London Brixton,John Murdoch,Large Cappuccino - 2.45,2.45,CARD,7560956369288207
+01/09/2021 13:03,London Brixton,Peter Hinojos,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Large Hot chocolate - 2.90",8.25,CARD,1416556197123760
+01/09/2021 13:04,London Brixton,Sung Chaney,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Large Iced americano - 2.50, Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",13.85,CASH,
+01/09/2021 13:05,London Brixton,Virginia Garland,"Large Iced americano - 2.50, Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",8.5,CARD,5144381488858945
+01/09/2021 13:06,London Brixton,Minnie Bradshaw,"Large Hot chocolate - 2.90, Large Espresso - 1.80, Large Speciality Tea - Earl Grey - 1.60, Large Frappes - Strawberries & Cream - 3.25",9.55,CARD,8765493832526965
+01/09/2021 13:07,London Brixton,May Torrey,"Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Glowing Greens - 2.50",9.3,CARD,5141579847608084
+01/09/2021 13:08,London Brixton,Michael Arvin,"Large Smoothies - Glowing Greens - 2.50, Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30",5.95,CARD,7148954288771408
+01/09/2021 13:09,London Brixton,Gregory Hamilton,"Regular Espresso - 1.50, Large Smoothies - Glowing Greens - 2.50",4.0,CASH,
+01/09/2021 13:09,London Brixton,Robert Robledo,"Regular Espresso - 1.50, Large Speciality Tea - Earl Grey - 1.60",3.1,CASH,
+01/09/2021 13:10,London Brixton,Hazel Ortega,"Large Smoothies - Glowing Greens - 2.50, Large Iced americano - 2.50",5.0,CARD,6400428189187243
+01/09/2021 13:11,London Brixton,Latoya Motley,Large Iced americano - 2.50,2.5,CASH,
+01/09/2021 13:12,London Brixton,Rose Maio,"Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20",4.95,CARD,8080822387527427
+01/09/2021 13:13,London Brixton,Ruth Burns,"Regular Frappes - Strawberries & Cream - 2.75, Large Frappes - Strawberries & Cream - 3.25, Regular Espresso - 1.50, Large Smoothies - Glowing Greens - 2.50",10.0,CARD,5042302521633997
+01/09/2021 13:14,London Brixton,Norman Greenfield,"Large Hot chocolate - 2.90, Large Speciality Tea - Earl Grey - 1.60",4.5,CARD,8370235356852064
+01/09/2021 13:15,London Brixton,Steven Rogers,"Regular Hot chocolate - 2.20, Large Cappuccino - 2.45, Regular Frappes - Strawberries & Cream - 2.75",7.4,CASH,
+01/09/2021 13:16,London Brixton,Regina Jordan,Large Iced americano - 2.50,2.5,CASH,
+01/09/2021 13:17,London Brixton,Michael Moss,Regular Smoothies - Glowing Greens - 2.00,2.0,CASH,
+01/09/2021 13:18,London Brixton,Ted Bessel,"Regular Hot chocolate - 2.20, Large Frappes - Strawberries & Cream - 3.25",5.45,CARD,8546874246689428
+01/09/2021 13:19,London Brixton,Lena Kinsey,"Regular Cappuccino - 2.15, Regular Iced americano - 2.15, Large Iced americano - 2.50, Regular Espresso - 1.50, Regular Smoothies - Glowing Greens - 2.00",10.3,CASH,
+01/09/2021 13:20,London Brixton,Michael Daugherty,"Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25",8.6,CARD,9637330963205403
+01/09/2021 13:20,London Brixton,Jamie Lee,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Large Cappuccino - 2.45",7.8,CARD,9215049583643106
+01/09/2021 13:21,London Brixton,Howard Graves,"Large Iced americano - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Regular Iced americano - 2.15",5.95,CARD,5001690100050451
+01/09/2021 13:22,London Brixton,Juan Funk,"Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75, Large Iced americano - 2.50",8.5,CARD,9038731669613173
+01/09/2021 13:23,London Brixton,Rachelle Ricketts,"Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50, Regular Hot chocolate - 2.20, Large Iced americano - 2.50",14.3,CARD,1609572165732822
+01/09/2021 13:24,London Brixton,Helen Garcia,"Regular Espresso - 1.50, Large Cappuccino - 2.45",3.95,CARD,6529546329479918
+01/09/2021 13:25,London Brixton,James Nogle,Regular Hot chocolate - 2.20,2.2,CASH,
+01/09/2021 13:26,London Brixton,Bruce Hafner,"Large Frappes - Strawberries & Cream - 3.25, Regular Espresso - 1.50, Large Smoothies - Carrot Kick - 2.50",7.25,CARD,8647594882731660
+01/09/2021 13:27,London Brixton,Ernest Kitzmiller,Large Cappuccino - 2.45,2.45,CARD,1531544370771491
+01/09/2021 13:28,London Brixton,William Casados,"Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00, Regular Iced americano - 2.15, Large Hot chocolate - 2.90, Large Smoothies - Glowing Greens - 2.50",12.45,CARD,8925634591633771
+01/09/2021 13:29,London Brixton,Allen Starnes,"Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30, Large Hot chocolate - 2.90, Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00",12.75,CASH,
+01/09/2021 13:30,London Brixton,Joshua Wagner,"Regular Espresso - 1.50, Regular Cappuccino - 2.15, Regular Iced americano - 2.15, Large Smoothies - Carrot Kick - 2.50, Large Cappuccino - 2.45",10.75,CARD,8368244571740361
+01/09/2021 13:31,London Brixton,Freida Reeves,"Large Hot chocolate - 2.90, Large Espresso - 1.80, Large Smoothies - Carrot Kick - 2.50, Large Frappes - Strawberries & Cream - 3.25",10.45,CASH,
+01/09/2021 13:31,London Brixton,Lieselotte Botelho,"Large Espresso - 1.80, Regular Cappuccino - 2.15, Large Hot chocolate - 2.90, Regular Smoothies - Carrot Kick - 2.00, Large Frappes - Strawberries & Cream - 3.25",12.1,CASH,
+01/09/2021 13:32,London Brixton,Karen Collins,"Large Hot chocolate - 2.90, Large Frappes - Strawberries & Cream - 3.25, Regular Iced americano - 2.15, Large Speciality Tea - Earl Grey - 1.60",9.9,CARD,2291456236656218
+01/09/2021 13:33,London Brixton,Jimmy Fisher,"Large Iced americano - 2.50, Regular Espresso - 1.50, Large Cappuccino - 2.45",6.45,CARD,8852547831517798
+01/09/2021 13:34,London Brixton,Lori Linares,"Large Iced americano - 2.50, Regular Frappes - Strawberries & Cream - 2.75",5.25,CARD,1669246841617646
+01/09/2021 13:35,London Brixton,Russell Clarke,"Large Smoothies - Carrot Kick - 2.50, Regular Cappuccino - 2.15, Large Smoothies - Glowing Greens - 2.50",7.15,CARD,8311439524411861
+01/09/2021 13:36,London Brixton,Dorothy Stanley,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,3262915558336366
+01/09/2021 13:37,London Brixton,Chase Thomas,"Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75",4.9,CASH,
+01/09/2021 13:38,London Brixton,Raymond Handley,"Large Cappuccino - 2.45, Large Smoothies - Carrot Kick - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Hot chocolate - 2.20",8.75,CARD,5217905264085155
+01/09/2021 13:39,London Brixton,John Miller,"Regular Cappuccino - 2.15, Regular Smoothies - Glowing Greens - 2.00, Regular Iced americano - 2.15, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50, Large Iced americano - 2.50",12.9,CARD,3456485735269108
+01/09/2021 13:40,London Brixton,Hannah Sanders,"Large Smoothies - Glowing Greens - 2.50, Regular Cappuccino - 2.15",4.65,CARD,6922735089656760
+01/09/2021 13:41,London Brixton,Roderick Auton,Large Smoothies - Carrot Kick - 2.50,2.5,CARD,3055809888740990
+01/09/2021 13:42,London Brixton,Manuel Crowley,"Large Speciality Tea - Earl Grey - 1.60, Large Iced americano - 2.50",4.1,CARD,4296278272638083
+01/09/2021 13:42,London Brixton,Donald Creech,"Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00, Large Iced americano - 2.50",5.8,CARD,2386600112678320
+01/09/2021 13:43,London Brixton,Nicolas Medina,Large Frappes - Strawberries & Cream - 3.25,3.25,CARD,9032034772058267
+01/09/2021 13:44,London Brixton,Curtis Mcintyre,"Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60, Large Hot chocolate - 2.90",7.75,CARD,4174952170524637
+01/09/2021 13:45,London Brixton,Betty Nave,Large Speciality Tea - Earl Grey - 1.60,1.6,CASH,
+01/09/2021 13:46,London Brixton,Matthew Miller,"Regular Smoothies - Carrot Kick - 2.00, Large Speciality Tea - Earl Grey - 1.60, Large Frappes - Strawberries & Cream - 3.25, Regular Iced americano - 2.15",9.0,CARD,8602201635394363
+01/09/2021 13:47,London Brixton,Diana Handsaker,"Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Cappuccino - 2.45, Large Smoothies - Glowing Greens - 2.50, Regular Smoothies - Carrot Kick - 2.00",11.05,CARD,3205216970535611
+01/09/2021 13:48,London Brixton,Whitney Lamb,"Large Hot chocolate - 2.90, Large Iced americano - 2.50",5.4,CASH,
+01/09/2021 13:49,London Brixton,James Watkins,Regular Hot chocolate - 2.20,2.2,CASH,
+01/09/2021 13:50,London Brixton,Marilyn Luby,"Regular Espresso - 1.50, Large Espresso - 1.80",3.3,CARD,4251136513584857
+01/09/2021 13:51,London Brixton,Andrew Batten,"Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Carrot Kick - 2.00, Regular Cappuccino - 2.15",7.4,CARD,2576831350662085
+01/09/2021 13:52,London Brixton,John Pearson,"Regular Speciality Tea - Earl Grey - 1.30, Regular Cappuccino - 2.15, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60",6.65,CASH,
+01/09/2021 13:53,London Brixton,Timothy Davis,Regular Hot chocolate - 2.20,2.2,CARD,1001301149260722
+01/09/2021 13:53,London Brixton,Iris Camarillo,"Regular Iced americano - 2.15, Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00",5.95,CARD,9983255944012738
+01/09/2021 13:54,London Brixton,James Foret,"Regular Hot chocolate - 2.20, Large Frappes - Strawberries & Cream - 3.25",5.45,CARD,2960656593379193
+01/09/2021 13:55,London Brixton,Heather Walker,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,6278004672877851
+01/09/2021 13:56,London Brixton,Daniel Pinto,"Regular Iced americano - 2.15, Large Frappes - Strawberries & Cream - 3.25, Large Smoothies - Carrot Kick - 2.50, Regular Hot chocolate - 2.20",10.1,CARD,8208827262033370
+01/09/2021 13:57,London Brixton,Lili Rohe,Regular Cappuccino - 2.15,2.15,CASH,
+01/09/2021 13:58,London Brixton,Raymond Harris,"Large Iced americano - 2.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Frappes - Strawberries & Cream - 2.75",8.0,CASH,
+01/09/2021 13:59,London Brixton,Paul Allen,"Large Smoothies - Glowing Greens - 2.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Glowing Greens - 2.00",10.0,CASH,
+01/09/2021 14:00,London Brixton,Shelia Kotula,"Regular Espresso - 1.50, Large Smoothies - Carrot Kick - 2.50",4.0,CARD,5837039666758579
+01/09/2021 14:01,London Brixton,Victor Thomas,"Regular Hot chocolate - 2.20, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50",6.0,CASH,
+01/09/2021 14:02,London Brixton,John Campbell,Regular Smoothies - Carrot Kick - 2.00,2.0,CARD,4203479687947193
+01/09/2021 14:03,London Brixton,Cheryl Walker,"Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00, Large Speciality Tea - Earl Grey - 1.60",5.1,CARD,4137988648178489
+01/09/2021 14:04,London Brixton,Thomas Evans,"Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15",7.0,CARD,2633596827871257
+01/09/2021 14:05,London Brixton,Nicholas Mcpherson,"Large Smoothies - Glowing Greens - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50, Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90",11.2,CARD,3065345662559203
+01/09/2021 14:06,London Brixton,Jane Wright,"Regular Smoothies - Carrot Kick - 2.00, Large Cappuccino - 2.45, Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",13.55,CARD,5023340774297763
+01/09/2021 14:07,London Brixton,Faith Corf,"Large Iced americano - 2.50, Large Iced americano - 2.50, Large Cappuccino - 2.45, Regular Smoothies - Glowing Greens - 2.00",9.45,CARD,6786807722717550
+01/09/2021 14:08,London Brixton,Jose Hanke,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,3808328017851930
+01/09/2021 14:09,London Brixton,Robert Hodge,Large Iced americano - 2.50,2.5,CARD,8887868534742935
+01/09/2021 14:10,London Brixton,Anderson Burnett,"Regular Hot chocolate - 2.20, Large Cappuccino - 2.45, Large Iced americano - 2.50",7.15,CARD,1962279877280005
+01/09/2021 14:11,London Brixton,Gregory Esker,"Regular Frappes - Strawberries & Cream - 2.75, Regular Iced americano - 2.15",4.9,CARD,8041877552883348
+01/09/2021 14:12,London Brixton,William Emery,Regular Hot chocolate - 2.20,2.2,CARD,8194854778331158
+01/09/2021 14:13,London Brixton,Ricky Gabe,"Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Glowing Greens - 2.00, Large Espresso - 1.80",8.7,CARD,9054277637137635
+01/09/2021 14:14,London Brixton,Martha Green,"Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60",4.85,CARD,7262203538731893
+01/09/2021 14:15,London Brixton,James Vesey,Large Iced americano - 2.50,2.5,CARD,8759794283098411
+01/09/2021 14:16,London Brixton,Stanton Walls,"Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Regular Cappuccino - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Carrot Kick - 2.00",11.95,CASH,
+01/09/2021 14:17,London Brixton,Laurence Gran,"Regular Espresso - 1.50, Regular Iced americano - 2.15, Regular Smoothies - Glowing Greens - 2.00, Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00",10.15,CARD,4599598775162047
+01/09/2021 14:18,London Brixton,Richard Lampman,"Large Espresso - 1.80, Regular Iced americano - 2.15, Regular Smoothies - Glowing Greens - 2.00",5.95,CARD,3716858204177072
+01/09/2021 14:19,London Brixton,Mary Moore,Regular Iced americano - 2.15,2.15,CASH,
+01/09/2021 14:20,London Brixton,William Hillian,"Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90, Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75",9.85,CARD,8538357125259630
+01/09/2021 14:21,London Brixton,Laura Ingle,Large Frappes - Strawberries & Cream - 3.25,3.25,CASH,
+01/09/2021 14:22,London Brixton,Maria Glenn,"Regular Iced americano - 2.15, Large Frappes - Strawberries & Cream - 3.25",5.4,CARD,5477802541175256
+01/09/2021 14:23,London Brixton,Frances Hernandez,"Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Carrot Kick - 2.50, Regular Frappes - Strawberries & Cream - 2.75, Large Espresso - 1.80",9.8,CARD,4354069112891350
+01/09/2021 14:23,London Brixton,Derrick Griffin,"Regular Hot chocolate - 2.20, Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Glowing Greens - 2.50, Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30",13.4,CARD,4062478152764408
+01/09/2021 14:24,London Brixton,Michael Metz,"Large Espresso - 1.80, Large Espresso - 1.80, Large Smoothies - Glowing Greens - 2.50",6.1,CARD,1307755838379114
+01/09/2021 14:25,London Brixton,Joel Lowry,Large Cappuccino - 2.45,2.45,CARD,2023672498173834
+01/09/2021 14:26,London Brixton,Michele Zettlemoyer,"Regular Iced americano - 2.15, Large Iced americano - 2.50, Large Cappuccino - 2.45, Regular Frappes - Strawberries & Cream - 2.75",9.85,CARD,2123829363516133
+01/09/2021 14:27,London Brixton,Barbra Maybee,"Regular Hot chocolate - 2.20, Regular Iced americano - 2.15",4.35,CARD,3963127044673647
+01/09/2021 14:28,London Brixton,Kevin Payne,"Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Espresso - 1.80",9.2,CASH,
+01/09/2021 14:29,London Brixton,Clarence Rutledge,"Regular Smoothies - Glowing Greens - 2.00, Regular Iced americano - 2.15, Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80",9.2,CASH,
+01/09/2021 14:30,London Brixton,Magdalena Babineaux,"Regular Speciality Tea - Earl Grey - 1.30, Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30",5.5,CASH,
+01/09/2021 14:31,London Brixton,Theresa Ruiz,"Large Iced americano - 2.50, Regular Smoothies - Glowing Greens - 2.00",4.5,CARD,9131383070600343
+01/09/2021 14:32,London Brixton,Brenda Kennon,"Large Smoothies - Carrot Kick - 2.50, Regular Smoothies - Glowing Greens - 2.00",4.5,CARD,5896548240083196
+01/09/2021 14:33,London Brixton,Linda Ballester,"Large Smoothies - Glowing Greens - 2.50, Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Regular Espresso - 1.50",8.05,CARD,8747761227633794
+01/09/2021 14:34,London Brixton,Ronald Bickham,"Regular Frappes - Strawberries & Cream - 2.75, Large Hot chocolate - 2.90",5.65,CARD,2333540753221390
+01/09/2021 14:35,London Brixton,Dennis Parker,"Large Smoothies - Glowing Greens - 2.50, Large Cappuccino - 2.45",4.95,CARD,1330428739092584
+01/09/2021 14:36,London Brixton,Colin Poole,Large Iced americano - 2.50,2.5,CASH,
+01/09/2021 14:37,London Brixton,Patrick Stuck,Regular Iced americano - 2.15,2.15,CARD,9330586850768489
+01/09/2021 14:38,London Brixton,Erich Lewis,"Large Hot chocolate - 2.90, Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Glowing Greens - 2.50",7.4,CASH,
+01/09/2021 14:39,London Brixton,William Olson,"Regular Cappuccino - 2.15, Regular Speciality Tea - Earl Grey - 1.30, Large Iced americano - 2.50",5.95,CARD,9658666302880590
+01/09/2021 14:40,London Brixton,Darren Monti,"Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75, Large Speciality Tea - Earl Grey - 1.60",7.6,CASH,
+01/09/2021 14:41,London Brixton,Dale Cooper,"Large Smoothies - Carrot Kick - 2.50, Large Iced americano - 2.50, Regular Cappuccino - 2.15, Regular Espresso - 1.50, Large Cappuccino - 2.45",11.1,CARD,5769652773121116
+01/09/2021 14:42,London Brixton,Brady Tull,Large Smoothies - Carrot Kick - 2.50,2.5,CARD,7659514776710082
+01/09/2021 14:43,London Brixton,Carolyn Palmer,Large Espresso - 1.80,1.8,CARD,5931941659202702
+01/09/2021 14:44,London Brixton,Belinda Bibbs,"Regular Hot chocolate - 2.20, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",7.75,CARD,7817690140605748
+01/09/2021 14:45,London Brixton,Ella Jenkins,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,8895144777657216
+01/09/2021 14:46,London Brixton,Annette Meil,"Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50, Regular Speciality Tea - Earl Grey - 1.30",4.8,CASH,
+01/09/2021 14:47,London Brixton,William Williams,"Large Hot chocolate - 2.90, Regular Espresso - 1.50",4.4,CARD,9321842521124059
+01/09/2021 14:48,London Brixton,Mary Park,"Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Glowing Greens - 2.50",4.5,CARD,3283386763665914
+01/09/2021 14:49,London Brixton,Kathrine Gardener,Regular Smoothies - Carrot Kick - 2.00,2.0,CASH,
+01/09/2021 14:50,London Brixton,Lois Zanchez,"Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50",4.1,CASH,
+01/09/2021 14:51,London Brixton,Richard Bosch,"Regular Iced americano - 2.15, Regular Espresso - 1.50, Regular Hot chocolate - 2.20, Regular Cappuccino - 2.15",8.0,CARD,8536256522972314
+01/09/2021 14:52,London Brixton,Constance Fraser,"Regular Frappes - Strawberries & Cream - 2.75, Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Carrot Kick - 2.50, Regular Iced americano - 2.15, Large Cappuccino - 2.45",11.15,CASH,
+01/09/2021 14:53,London Brixton,Larry Hanrahan,"Regular Cappuccino - 2.15, Regular Iced americano - 2.15",4.3,CARD,4425713874086652
+01/09/2021 14:54,London Brixton,Julie Bowser,"Regular Frappes - Strawberries & Cream - 2.75, Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Carrot Kick - 2.00, Regular Smoothies - Glowing Greens - 2.00",8.05,CASH,
+01/09/2021 14:55,London Brixton,Lydia Lawalin,"Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00",3.3,CARD,2303635605592498
+01/09/2021 14:56,London Brixton,Arturo Winter,"Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Glowing Greens - 2.50",5.25,CARD,3125147668618472
+01/09/2021 14:57,London Brixton,Kelly Morrow,"Large Frappes - Strawberries & Cream - 3.25, Regular Smoothies - Glowing Greens - 2.00",5.25,CARD,6296801351188031
+01/09/2021 14:58,London Brixton,Kyle Lauer,"Regular Espresso - 1.50, Large Speciality Tea - Earl Grey - 1.60",3.1,CASH,
+01/09/2021 14:59,London Brixton,Opal Hynes,"Large Cappuccino - 2.45, Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75",12.15,CARD,8400844757632117
+01/09/2021 15:00,London Brixton,Harold Jackson,"Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00, Regular Cappuccino - 2.15",7.6,CARD,4024308928025456
+01/09/2021 15:02,London Brixton,Maria Nelson,"Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50, Regular Iced americano - 2.15, Large Smoothies - Carrot Kick - 2.50, Large Speciality Tea - Earl Grey - 1.60",10.35,CARD,8575798347876566
+01/09/2021 15:03,London Brixton,Gloria Reilly,"Regular Espresso - 1.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Frappes - Strawberries & Cream - 2.75",7.0,CARD,2511534408548946
+01/09/2021 15:05,London Brixton,Robert Cook,"Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00",7.35,CARD,4737197494516444
+01/09/2021 15:07,London Brixton,Lorraine Bryant,"Regular Espresso - 1.50, Large Cappuccino - 2.45, Regular Smoothies - Carrot Kick - 2.00, Large Iced americano - 2.50, Large Cappuccino - 2.45, Large Smoothies - Glowing Greens - 2.50",13.4,CASH,
+01/09/2021 15:08,London Brixton,Nicole Morgan,"Regular Espresso - 1.50, Large Hot chocolate - 2.90, Large Smoothies - Glowing Greens - 2.50",6.9,CASH,
+01/09/2021 15:10,London Brixton,Carolyn Summers,Large Hot chocolate - 2.90,2.9,CARD,3900734182922985
+01/09/2021 15:12,London Brixton,Jennifer Palmer,Regular Espresso - 1.50,1.5,CARD,1776102705840633
+01/09/2021 15:14,London Brixton,Susan Monreal,"Large Cappuccino - 2.45, Large Espresso - 1.80",4.25,CASH,
+01/09/2021 15:15,London Brixton,Willa Watts,"Regular Espresso - 1.50, Regular Espresso - 1.50",3.0,CASH,
+01/09/2021 15:17,London Brixton,Ruben Wallace,"Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60",3.2,CASH,
+01/09/2021 15:19,London Brixton,William Klaus,"Large Smoothies - Glowing Greens - 2.50, Large Cappuccino - 2.45, Regular Cappuccino - 2.15, Large Smoothies - Carrot Kick - 2.50, Regular Speciality Tea - Earl Grey - 1.30",10.9,CARD,8504252857736136
+01/09/2021 15:20,London Brixton,Kenneth Mccormick,"Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Carrot Kick - 2.00, Regular Smoothies - Carrot Kick - 2.00, Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Regular Smoothies - Glowing Greens - 2.00",12.35,CARD,2035282046679884
+01/09/2021 15:22,London Brixton,Harry Parnell,"Regular Hot chocolate - 2.20, Large Speciality Tea - Earl Grey - 1.60, Regular Iced americano - 2.15",5.95,CARD,8039513657967908
+01/09/2021 15:24,London Brixton,Linda Brittain,"Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00, Regular Espresso - 1.50, Large Frappes - Strawberries & Cream - 3.25",9.25,CARD,4788224963703323
+01/09/2021 15:25,London Brixton,Curtis Vasquez,"Large Smoothies - Carrot Kick - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Large Hot chocolate - 2.90",6.7,CARD,6924085942452705
+01/09/2021 15:27,London Brixton,Juan Varron,"Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Carrot Kick - 2.00",5.2,CASH,
+01/09/2021 15:29,London Brixton,Pattie Lewis,"Large Smoothies - Carrot Kick - 2.50, Large Smoothies - Carrot Kick - 2.50",5.0,CASH,
+01/09/2021 15:31,London Brixton,Edward George,"Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30, Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20",9.35,CASH,
+01/09/2021 15:32,London Brixton,Andra Foster,"Large Cappuccino - 2.45, Large Smoothies - Carrot Kick - 2.50, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50",10.35,CARD,6287491319524316
+01/09/2021 15:34,London Brixton,Loretta Sanders,Regular Frappes - Strawberries & Cream - 2.75,2.75,CARD,8084569499833184
+01/09/2021 15:36,London Brixton,Awilda Cronin,Regular Espresso - 1.50,1.5,CARD,9026389991285350
+01/09/2021 15:37,London Brixton,Gilbert Schneider,"Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30, Large Iced americano - 2.50",7.4,CASH,
+01/09/2021 15:39,London Brixton,Sally Lanza,"Large Smoothies - Carrot Kick - 2.50, Regular Hot chocolate - 2.20",4.7,CASH,
+01/09/2021 15:41,London Brixton,Benjamin Farnsworth,Large Cappuccino - 2.45,2.45,CASH,
+01/09/2021 15:43,London Brixton,Teresa Wilder,"Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30, Large Frappes - Strawberries & Cream - 3.25",6.35,CARD,8059410082115754
+01/09/2021 15:44,London Brixton,Dallas Solis,Regular Speciality Tea - Earl Grey - 1.30,1.3,CASH,
+01/09/2021 15:46,London Brixton,Heather Stevens,"Large Hot chocolate - 2.90, Large Hot chocolate - 2.90, Large Hot chocolate - 2.90",8.7,CARD,6140638786453488
+01/09/2021 15:48,London Brixton,Harriette Carr,"Large Frappes - Strawberries & Cream - 3.25, Large Smoothies - Glowing Greens - 2.50, Regular Cappuccino - 2.15, Regular Cappuccino - 2.15",10.05,CASH,
+01/09/2021 15:49,London Brixton,Ronald Laughlin,"Regular Espresso - 1.50, Large Smoothies - Glowing Greens - 2.50",4.0,CARD,1344596248146807
+01/09/2021 15:51,London Brixton,Gerald Horn,"Large Hot chocolate - 2.90, Regular Cappuccino - 2.15",5.05,CARD,2608729505374974
+01/09/2021 15:53,London Brixton,Joyce Herron,"Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75",4.75,CARD,7761129636707641
+01/09/2021 15:54,London Brixton,Marie Corum,"Regular Smoothies - Carrot Kick - 2.00, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50",6.1,CARD,4676899043580293
+01/09/2021 15:56,London Brixton,Raul Christensen,"Large Frappes - Strawberries & Cream - 3.25, Regular Cappuccino - 2.15",5.4,CARD,7271053523826041
+01/09/2021 15:58,London Brixton,Mark Osorio,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,5686547854631791
+01/09/2021 16:00,London Brixton,Joe Ellington,"Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Glowing Greens - 2.00, Regular Smoothies - Glowing Greens - 2.00",8.95,CARD,3512753031706470
+01/09/2021 16:03,London Brixton,Oscar White,"Regular Hot chocolate - 2.20, Large Iced americano - 2.50, Large Iced americano - 2.50",7.2,CASH,
+01/09/2021 16:06,London Brixton,Marianela Evans,"Large Espresso - 1.80, Regular Iced americano - 2.15, Regular Cappuccino - 2.15",6.1,CARD,6925679744708206
+01/09/2021 16:09,London Brixton,Joan Howell,Large Iced americano - 2.50,2.5,CARD,8290273375112214
+01/09/2021 16:12,London Brixton,Cynthia Perez,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,9695248412812542
+01/09/2021 16:15,London Brixton,Robert Blanchard,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30, Regular Smoothies - Glowing Greens - 2.00",8.65,CARD,3250284369342579
+01/09/2021 16:18,London Brixton,Harold Gary,"Regular Hot chocolate - 2.20, Large Hot chocolate - 2.90",5.1,CARD,1595823301130172
+01/09/2021 16:22,London Brixton,Lettie To,"Large Cappuccino - 2.45, Regular Iced americano - 2.15, Regular Smoothies - Carrot Kick - 2.00",6.6,CARD,8371950102927623
+01/09/2021 16:25,London Brixton,Maria Brackman,"Regular Hot chocolate - 2.20, Large Speciality Tea - Earl Grey - 1.60, Large Iced americano - 2.50",6.3,CARD,2661775801895912
+01/09/2021 16:28,London Brixton,Irene Forand,"Regular Speciality Tea - Earl Grey - 1.30, Regular Cappuccino - 2.15",3.45,CARD,1750774752903319
+01/09/2021 16:31,London Brixton,Jennifer Hamrick,"Regular Cappuccino - 2.15, Large Hot chocolate - 2.90, Large Iced americano - 2.50, Large Cappuccino - 2.45, Large Iced americano - 2.50, Large Cappuccino - 2.45",14.95,CARD,1866491965613419
+01/09/2021 16:34,London Brixton,Philip Pancoast,"Large Hot chocolate - 2.90, Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30",7.3,CARD,6035477249577418
+01/09/2021 16:37,London Brixton,Jacob Mallon,Regular Espresso - 1.50,1.5,CASH,
+01/09/2021 16:41,London Brixton,George Dieball,Regular Smoothies - Carrot Kick - 2.00,2.0,CASH,
+01/09/2021 16:44,London Brixton,Sabrina Woytowich,Large Smoothies - Carrot Kick - 2.50,2.5,CARD,1712981104600235
+01/09/2021 16:47,London Brixton,Arlene Schroeder,"Large Frappes - Strawberries & Cream - 3.25, Large Smoothies - Carrot Kick - 2.50, Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50, Large Espresso - 1.80",11.05,CARD,6368758705432767
+01/09/2021 16:50,London Brixton,Kathy Valdivia,"Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Glowing Greens - 2.50",6.1,CARD,8449820640464860
+01/09/2021 16:53,London Brixton,Darrell Franck,"Large Espresso - 1.80, Regular Frappes - Strawberries & Cream - 2.75",4.55,CASH,
+01/09/2021 16:56,London Brixton,James Jankowski,Regular Smoothies - Carrot Kick - 2.00,2.0,CASH,
+01/09/2021 16:59,London Brixton,Michael Schrock,"Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50, Regular Smoothies - Carrot Kick - 2.00, Regular Smoothies - Carrot Kick - 2.00",8.65,CARD,9899677554633395
+01/09/2021 17:03,London Brixton,Thelma Blankenship,"Large Smoothies - Glowing Greens - 2.50, Large Espresso - 1.80",4.3,CASH,
+01/09/2021 17:05,London Brixton,Joan Gross,"Regular Frappes - Strawberries & Cream - 2.75, Large Frappes - Strawberries & Cream - 3.25, Regular Cappuccino - 2.15",8.15,CARD,8873787255561317
+01/09/2021 17:07,London Brixton,Kathleen Buckner,"Regular Smoothies - Carrot Kick - 2.00, Large Smoothies - Carrot Kick - 2.50",4.5,CARD,7263389755358355
+01/09/2021 17:10,London Brixton,Barbara Diller,"Regular Iced americano - 2.15, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60",5.35,CARD,6624189840495377
+01/09/2021 17:12,London Brixton,Mathew Mcdonald,"Large Hot chocolate - 2.90, Regular Hot chocolate - 2.20, Large Iced americano - 2.50, Regular Hot chocolate - 2.20",9.8,CARD,3018510347488897
+01/09/2021 17:15,London Brixton,Maria Ryan,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,6835555063821119
+01/09/2021 17:17,London Brixton,Phyllis Osorio,"Large Iced americano - 2.50, Regular Cappuccino - 2.15",4.65,CARD,6595383742226936
+01/09/2021 17:19,London Brixton,China Kirker,"Regular Cappuccino - 2.15, Large Cappuccino - 2.45, Large Espresso - 1.80, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25, Regular Speciality Tea - Earl Grey - 1.30",13.1,CASH,
+01/09/2021 17:22,London Brixton,Edward Salem,"Regular Cappuccino - 2.15, Regular Speciality Tea - Earl Grey - 1.30, Large Espresso - 1.80",5.25,CASH,
+01/09/2021 17:24,London Brixton,Inez Gonzalez,Regular Frappes - Strawberries & Cream - 2.75,2.75,CASH,
+01/09/2021 17:27,London Brixton,William Acosta,"Regular Iced americano - 2.15, Large Iced americano - 2.50, Large Frappes - Strawberries & Cream - 3.25",7.9,CARD,8068414802950247
+01/09/2021 17:29,London Brixton,Steven Panther,Large Frappes - Strawberries & Cream - 3.25,3.25,CARD,4390917944681358
+01/09/2021 17:31,London Brixton,Charles Dekany,"Regular Hot chocolate - 2.20, Regular Hot chocolate - 2.20",4.4,CASH,
+01/09/2021 17:34,London Brixton,Rivka Lowe,"Regular Espresso - 1.50, Regular Smoothies - Glowing Greens - 2.00, Large Frappes - Strawberries & Cream - 3.25, Regular Frappes - Strawberries & Cream - 2.75",9.5,CARD,1252489174352505
+01/09/2021 17:36,London Brixton,Tammy Barnett,Regular Espresso - 1.50,1.5,CARD,3584046117888870
+01/09/2021 17:39,London Brixton,Juliet Cagle,"Regular Smoothies - Glowing Greens - 2.00, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45, Regular Cappuccino - 2.15, Regular Smoothies - Glowing Greens - 2.00",9.9,CARD,2296522970270469
+01/09/2021 17:41,London Brixton,Kimberly Soule,"Regular Smoothies - Carrot Kick - 2.00, Regular Speciality Tea - Earl Grey - 1.30",3.3,CASH,
+01/09/2021 17:43,London Brixton,James Hamilton,"Large Smoothies - Glowing Greens - 2.50, Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75",7.25,CASH,
+01/09/2021 17:46,London Brixton,Brett Johnson,Large Frappes - Strawberries & Cream - 3.25,3.25,CASH,
+01/09/2021 17:48,London Brixton,Vilma Ferguson,Regular Frappes - Strawberries & Cream - 2.75,2.75,CARD,4270747588055594
+01/09/2021 17:51,London Brixton,Linette Williams,"Large Iced americano - 2.50, Large Cappuccino - 2.45",4.95,CARD,9616172766844217
+01/09/2021 17:53,London Brixton,Renate Tucker,"Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00, Large Cappuccino - 2.45",6.05,CARD,8294794408037164
+01/09/2021 17:55,London Brixton,Donna Pinkert,"Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00, Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25",12.3,CARD,5306364118039161
+01/09/2021 17:58,London Brixton,Bennie Dillon,Large Smoothies - Glowing Greens - 2.50,2.5,CASH,
+01/09/2021 18:00,London Brixton,Deidra Williams,"Regular Speciality Tea - Earl Grey - 1.30, Regular Hot chocolate - 2.20",3.5,CASH,
+01/09/2021 18:02,London Brixton,William Harstad,"Large Smoothies - Glowing Greens - 2.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Iced americano - 2.15, Regular Hot chocolate - 2.20",9.6,CARD,1722014995553144
+01/09/2021 18:04,London Brixton,Barbara Buisson,Regular Espresso - 1.50,1.5,CARD,1978084248492604
+01/09/2021 18:07,London Brixton,Michaela Ramsay,"Regular Frappes - Strawberries & Cream - 2.75, Regular Frappes - Strawberries & Cream - 2.75",5.5,CARD,9958623447478448
+01/09/2021 18:09,London Brixton,Danica Grant,"Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Glowing Greens - 2.50, Large Hot chocolate - 2.90",7.4,CARD,2096542987655688
+01/09/2021 18:11,London Brixton,Nicolas Olson,Large Iced americano - 2.50,2.5,CARD,7409449624018176
+01/09/2021 18:13,London Brixton,Michael Bello,"Regular Iced americano - 2.15, Regular Iced americano - 2.15",4.3,CARD,7751606076987019
+01/09/2021 18:15,London Brixton,Kenna Seery,"Large Frappes - Strawberries & Cream - 3.25, Large Frappes - Strawberries & Cream - 3.25, Regular Iced americano - 2.15",8.65,CARD,7596058629184530
+01/09/2021 18:17,London Brixton,Carrie Martin,"Large Espresso - 1.80, Large Espresso - 1.80, Regular Smoothies - Carrot Kick - 2.00, Large Cappuccino - 2.45",8.05,CASH,
+01/09/2021 18:19,London Brixton,Laura Martin,"Large Frappes - Strawberries & Cream - 3.25, Large Iced americano - 2.50, Regular Smoothies - Carrot Kick - 2.00",7.75,CASH,
+01/09/2021 18:21,London Brixton,Edward Harris,"Regular Iced americano - 2.15, Regular Smoothies - Carrot Kick - 2.00, Large Frappes - Strawberries & Cream - 3.25",7.4,CARD,5856656512575721
+01/09/2021 18:24,London Brixton,Anthony Fields,"Regular Iced americano - 2.15, Large Iced americano - 2.50, Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75",9.6,CASH,
+01/09/2021 18:26,London Brixton,Arthur Frascone,Large Speciality Tea - Earl Grey - 1.60,1.6,CARD,1464312182263512
+01/09/2021 18:28,London Brixton,John Downes,"Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Large Smoothies - Carrot Kick - 2.50, Large Iced americano - 2.50, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50",15.45,CASH,
+01/09/2021 18:30,London Brixton,Richard Romero,"Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Regular Iced americano - 2.15",4.75,CARD,5205419765479428
+01/09/2021 18:32,London Brixton,Alta Jackson,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,9657074944179541
+01/09/2021 18:34,London Brixton,Ruby Morlino,"Large Hot chocolate - 2.90, Regular Frappes - Strawberries & Cream - 2.75, Regular Speciality Tea - Earl Grey - 1.30, Large Frappes - Strawberries & Cream - 3.25, Regular Cappuccino - 2.15",12.35,CASH,
+01/09/2021 18:36,London Brixton,Jo Smith,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,6807578473569401
+01/09/2021 18:39,London Brixton,Scott Crump,Regular Frappes - Strawberries & Cream - 2.75,2.75,CARD,8488315320263528
+01/09/2021 18:41,London Brixton,Chris Ramirez,Large Smoothies - Glowing Greens - 2.50,2.5,CASH,
+01/09/2021 18:43,London Brixton,Bertha Scott,"Regular Smoothies - Glowing Greens - 2.00, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50, Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00",9.9,CARD,7497510044406774
+01/09/2021 18:45,London Brixton,Sammie Heidinger,"Regular Frappes - Strawberries & Cream - 2.75, Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75",7.7,CASH,
+01/09/2021 18:47,London Brixton,Sharon Lawson,"Regular Smoothies - Carrot Kick - 2.00, Large Hot chocolate - 2.90",4.9,CARD,8857131963886807
+01/09/2021 18:49,London Brixton,Miguel Vannote,"Regular Smoothies - Glowing Greens - 2.00, Regular Hot chocolate - 2.20",4.2,CARD,4757599626000378
+01/09/2021 18:51,London Brixton,Angela Frierson,"Large Hot chocolate - 2.90, Regular Smoothies - Glowing Greens - 2.00",4.9,CARD,1741493346635839
+01/09/2021 18:53,London Brixton,Aida Johnson,Large Hot chocolate - 2.90,2.9,CARD,3616905740000562
+01/09/2021 18:56,London Brixton,Patrick Fisk,"Regular Smoothies - Carrot Kick - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Regular Espresso - 1.50, Regular Cappuccino - 2.15",8.4,CARD,4726802460307682
+01/09/2021 18:58,London Brixton,Wendy Jimerson,"Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60",6.45,CARD,3867569806112146
+01/09/2021 19:00,London Brixton,Franklin Lopez,"Large Espresso - 1.80, Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75",6.55,CARD,6552282537245668
+01/09/2021 19:01,London Brixton,Rhoda Collier,"Regular Smoothies - Glowing Greens - 2.00, Large Iced americano - 2.50, Large Hot chocolate - 2.90, Large Iced americano - 2.50",9.9,CASH,
+01/09/2021 19:03,London Brixton,Antonio Finney,"Regular Speciality Tea - Earl Grey - 1.30, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Glowing Greens - 2.50, Regular Speciality Tea - Earl Grey - 1.30, Large Iced americano - 2.50",9.2,CARD,3585087659301830
+01/09/2021 19:04,London Brixton,Angel Warner,"Large Cappuccino - 2.45, Large Frappes - Strawberries & Cream - 3.25",5.7,CARD,3677503929719340
+01/09/2021 19:05,London Brixton,Buddy Coleson,"Regular Frappes - Strawberries & Cream - 2.75, Large Espresso - 1.80, Regular Smoothies - Carrot Kick - 2.00",6.55,CASH,
+01/09/2021 19:07,London Brixton,Hannah Henkel,"Large Cappuccino - 2.45, Regular Espresso - 1.50",3.95,CASH,
+01/09/2021 19:08,London Brixton,Sarah Walk,"Regular Cappuccino - 2.15, Regular Frappes - Strawberries & Cream - 2.75, Large Smoothies - Glowing Greens - 2.50, Regular Espresso - 1.50, Large Cappuccino - 2.45",11.35,CARD,2816344160276622
+01/09/2021 19:09,London Brixton,Jeremy Pritchett,"Regular Iced americano - 2.15, Regular Iced americano - 2.15",4.3,CARD,3944966168747985
+01/09/2021 19:11,London Brixton,Ethel Lea,"Regular Frappes - Strawberries & Cream - 2.75, Large Speciality Tea - Earl Grey - 1.60, Large Smoothies - Carrot Kick - 2.50, Regular Hot chocolate - 2.20",9.05,CARD,7755798342860337
+01/09/2021 19:12,London Brixton,Malcolm Artman,"Regular Frappes - Strawberries & Cream - 2.75, Regular Speciality Tea - Earl Grey - 1.30",4.05,CARD,1133694417142868
+01/09/2021 19:13,London Brixton,Angela Davis,"Regular Smoothies - Carrot Kick - 2.00, Large Espresso - 1.80, Regular Espresso - 1.50",5.3,CARD,6560458087404170
+01/09/2021 19:15,London Brixton,Robert Carson,"Regular Smoothies - Glowing Greens - 2.00, Regular Hot chocolate - 2.20, Large Smoothies - Carrot Kick - 2.50, Regular Frappes - Strawberries & Cream - 2.75",9.45,CASH,
+01/09/2021 19:16,London Brixton,Al Mayer,"Large Hot chocolate - 2.90, Large Speciality Tea - Earl Grey - 1.60, Large Espresso - 1.80",6.3,CARD,1165374207338645
+01/09/2021 19:17,London Brixton,Anna Young,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,3387102073535129
+01/09/2021 19:19,London Brixton,William Moore,Regular Iced americano - 2.15,2.15,CARD,6423310901038107
+01/09/2021 19:20,London Brixton,Carrie Fisher,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,2909498905130161
+01/09/2021 19:21,London Brixton,John Varner,"Large Smoothies - Carrot Kick - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Hot chocolate - 2.90, Large Smoothies - Carrot Kick - 2.50, Regular Espresso - 1.50",11.0,CASH,
+01/09/2021 19:23,London Brixton,Warren Landingham,"Large Espresso - 1.80, Regular Iced americano - 2.15",3.95,CARD,1314171302510124
+01/09/2021 19:24,London Brixton,Charles Kleine,"Large Smoothies - Glowing Greens - 2.50, Large Espresso - 1.80, Regular Hot chocolate - 2.20, Regular Frappes - Strawberries & Cream - 2.75",9.25,CARD,5242069397088622
+01/09/2021 19:26,London Brixton,Ruth Bryant,"Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Carrot Kick - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Regular Iced americano - 2.15, Large Hot chocolate - 2.90",13.9,CARD,2427662129680045
+01/09/2021 19:27,London Brixton,Blanche Pace,"Regular Smoothies - Glowing Greens - 2.00, Large Frappes - Strawberries & Cream - 3.25, Large Speciality Tea - Earl Grey - 1.60",6.85,CASH,
+01/09/2021 19:28,London Brixton,Paula Haynie,"Regular Espresso - 1.50, Regular Hot chocolate - 2.20, Large Espresso - 1.80, Regular Hot chocolate - 2.20, Regular Iced americano - 2.15, Large Smoothies - Carrot Kick - 2.50",12.35,CASH,
+01/09/2021 19:30,London Brixton,Crystal Sanchez,"Large Smoothies - Glowing Greens - 2.50, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00",7.7,CASH,
+01/09/2021 19:31,London Brixton,Larry Wheeler,Regular Iced americano - 2.15,2.15,CARD,2926233324837772
+01/09/2021 19:32,London Brixton,Deborah Watt,"Large Smoothies - Glowing Greens - 2.50, Large Smoothies - Glowing Greens - 2.50",5.0,CARD,6823724771608539
+01/09/2021 19:34,London Brixton,Terrence Deroche,"Regular Espresso - 1.50, Large Iced americano - 2.50, Large Smoothies - Glowing Greens - 2.50, Regular Hot chocolate - 2.20, Regular Espresso - 1.50",10.2,CARD,4768978206221032
+01/09/2021 19:35,London Brixton,Patricia Watkins,Large Iced americano - 2.50,2.5,CARD,9353679275766600
+01/09/2021 19:36,London Brixton,Ben White,Regular Iced americano - 2.15,2.15,CASH,
+01/09/2021 19:38,London Brixton,James Collom,"Regular Smoothies - Carrot Kick - 2.00, Large Hot chocolate - 2.90",4.9,CARD,3303158295097600
+01/09/2021 19:39,London Brixton,Jacqueline Shah,"Regular Speciality Tea - Earl Grey - 1.30, Regular Frappes - Strawberries & Cream - 2.75, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00",7.65,CARD,3185254436555339
+01/09/2021 19:40,London Brixton,Doris Williams,Regular Speciality Tea - Earl Grey - 1.30,1.3,CARD,5735080162397806
+01/09/2021 19:42,London Brixton,Paul Drummond,"Regular Espresso - 1.50, Regular Frappes - Strawberries & Cream - 2.75, Large Espresso - 1.80, Regular Speciality Tea - Earl Grey - 1.30",7.35,CARD,7366654863537832
+01/09/2021 19:43,London Brixton,Sharon Perry,"Regular Smoothies - Carrot Kick - 2.00, Regular Espresso - 1.50, Regular Iced americano - 2.15",5.65,CARD,1961789754330591
+01/09/2021 19:44,London Brixton,Manuel Coleman,Large Smoothies - Carrot Kick - 2.50,2.5,CASH,
+01/09/2021 19:46,London Brixton,Amber Posey,"Regular Iced americano - 2.15, Large Iced americano - 2.50, Large Smoothies - Glowing Greens - 2.50",7.15,CARD,2962066623582141
+01/09/2021 19:47,London Brixton,Andrew Hendrick,Large Iced americano - 2.50,2.5,CASH,
+01/09/2021 19:49,London Brixton,Shoshana Manly,"Large Cappuccino - 2.45, Regular Cappuccino - 2.15, Large Speciality Tea - Earl Grey - 1.60, Regular Hot chocolate - 2.20, Large Cappuccino - 2.45",10.85,CARD,8094384235236714
+01/09/2021 19:50,London Brixton,Charlotte Dube,"Regular Hot chocolate - 2.20, Regular Iced americano - 2.15, Regular Speciality Tea - Earl Grey - 1.30",5.65,CASH,
+01/09/2021 19:51,London Brixton,Gary Mcswain,"Regular Espresso - 1.50, Large Hot chocolate - 2.90, Large Smoothies - Glowing Greens - 2.50, Large Frappes - Strawberries & Cream - 3.25, Regular Speciality Tea - Earl Grey - 1.30, Large Cappuccino - 2.45",13.9,CARD,9544877676638113
+01/09/2021 19:53,London Brixton,Paulette Roden,"Regular Iced americano - 2.15, Large Smoothies - Glowing Greens - 2.50, Regular Cappuccino - 2.15, Regular Cappuccino - 2.15",8.95,CASH,
+01/09/2021 19:54,London Brixton,Lydia Lamb,"Regular Speciality Tea - Earl Grey - 1.30, Regular Speciality Tea - Earl Grey - 1.30, Regular Espresso - 1.50, Regular Cappuccino - 2.15, Large Smoothies - Carrot Kick - 2.50",8.75,CASH,
+01/09/2021 19:55,London Brixton,Sarah Betts,"Large Smoothies - Carrot Kick - 2.50, Regular Iced americano - 2.15",4.65,CARD,6477293355387549
+01/09/2021 19:57,London Brixton,Peggy Blank,"Regular Espresso - 1.50, Large Frappes - Strawberries & Cream - 3.25",4.75,CASH,
+01/09/2021 19:58,London Brixton,Leanne Bradford,"Regular Speciality Tea - Earl Grey - 1.30, Large Speciality Tea - Earl Grey - 1.60",2.9,CARD,1049237853361848
+01/09/2021 19:59,London Brixton,Luis Wright,"Large Iced americano - 2.50, Regular Frappes - Strawberries & Cream - 2.75, Large Frappes - Strawberries & Cream - 3.25, Large Frappes - Strawberries & Cream - 3.25",11.75,CASH,
+01/09/2021 20:01,London Brixton,William Watkins,"Regular Speciality Tea - Earl Grey - 1.30, Large Smoothies - Glowing Greens - 2.50",3.8,CARD,3512442383821658
+01/09/2021 20:03,London Brixton,William Han,"Large Iced americano - 2.50, Large Iced americano - 2.50",5.0,CARD,7984243857665897
+01/09/2021 20:05,London Brixton,Karon Boehme,Regular Smoothies - Glowing Greens - 2.00,2.0,CARD,8238688002589910
+01/09/2021 20:08,London Brixton,John Myers,"Regular Iced americano - 2.15, Large Iced americano - 2.50",4.65,CARD,8217325263115384
+01/09/2021 20:10,London Brixton,Joseph Archer,"Large Frappes - Strawberries & Cream - 3.25, Large Smoothies - Glowing Greens - 2.50, Regular Smoothies - Glowing Greens - 2.00, Large Hot chocolate - 2.90",10.65,CARD,9342266222574851
+01/09/2021 20:13,London Brixton,Renee Pippins,"Large Cappuccino - 2.45, Large Speciality Tea - Earl Grey - 1.60, Large Speciality Tea - Earl Grey - 1.60",5.65,CARD,9804678846640052
+01/09/2021 20:15,London Brixton,Kent Jeffrie,"Regular Cappuccino - 2.15, Large Frappes - Strawberries & Cream - 3.25",5.4,CARD,4796196107844408
+01/09/2021 20:17,London Brixton,Martin Diaz,"Large Cappuccino - 2.45, Regular Espresso - 1.50, Regular Smoothies - Carrot Kick - 2.00",5.95,CARD,3754260500718529
+01/09/2021 20:20,London Brixton,Catherine Reeder,Regular Smoothies - Glowing Greens - 2.00,2.0,CARD,9782443126005598
+01/09/2021 20:22,London Brixton,Nellie Earl,"Large Smoothies - Glowing Greens - 2.50, Regular Cappuccino - 2.15, Large Espresso - 1.80, Regular Espresso - 1.50",7.95,CARD,4012245840245390
+01/09/2021 20:25,London Brixton,Brian Adams,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90, Large Hot chocolate - 2.90, Regular Cappuccino - 2.15, Large Speciality Tea - Earl Grey - 1.60",12.0,CARD,2647251675961644
+01/09/2021 20:27,London Brixton,Eric Ogrodowicz,"Large Iced americano - 2.50, Regular Iced americano - 2.15, Regular Frappes - Strawberries & Cream - 2.75",7.4,CARD,2644560329759418
+01/09/2021 20:29,London Brixton,James Collazo,Regular Iced americano - 2.15,2.15,CARD,8594995653588915
+01/09/2021 20:32,London Brixton,Alana Harrison,"Large Smoothies - Glowing Greens - 2.50, Large Hot chocolate - 2.90, Large Espresso - 1.80, Regular Cappuccino - 2.15, Regular Iced americano - 2.15",11.5,CARD,7107844882068652
+01/09/2021 20:34,London Brixton,Timothy Sorenson,Large Frappes - Strawberries & Cream - 3.25,3.25,CARD,4687904594255139
+01/09/2021 20:37,London Brixton,Lucile Jackson,"Regular Espresso - 1.50, Large Frappes - Strawberries & Cream - 3.25, Large Espresso - 1.80, Regular Cappuccino - 2.15, Large Iced americano - 2.50",11.2,CASH,
+01/09/2021 20:39,London Brixton,Rod King,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,4334387526036697
+01/09/2021 20:41,London Brixton,Amber Horn,Large Cappuccino - 2.45,2.45,CASH,
+01/09/2021 20:44,London Brixton,Dan Harry,"Large Cappuccino - 2.45, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Glowing Greens - 2.00, Large Smoothies - Carrot Kick - 2.50, Large Iced americano - 2.50, Regular Iced americano - 2.15",14.35,CASH,
+01/09/2021 20:46,London Brixton,Mary Lyday,Large Smoothies - Glowing Greens - 2.50,2.5,CARD,4990335505600292
+01/09/2021 20:49,London Brixton,Marsha Williams,"Regular Smoothies - Glowing Greens - 2.00, Large Speciality Tea - Earl Grey - 1.60, Regular Smoothies - Glowing Greens - 2.00, Regular Espresso - 1.50",7.1,CASH,
+01/09/2021 20:51,London Brixton,Andrew Mettig,"Regular Espresso - 1.50, Regular Frappes - Strawberries & Cream - 2.75, Regular Smoothies - Carrot Kick - 2.00",6.25,CARD,9736442272689726
+01/09/2021 20:53,London Brixton,Charles Mckenzie,"Regular Hot chocolate - 2.20, Regular Smoothies - Glowing Greens - 2.00, Regular Frappes - Strawberries & Cream - 2.75, Regular Frappes - Strawberries & Cream - 2.75",9.7,CARD,1556836730339430
+01/09/2021 20:56,London Brixton,Heather Bryant,Regular Cappuccino - 2.15,2.15,CASH,
+01/09/2021 20:58,London Brixton,Charmaine Hoye,"Large Cappuccino - 2.45, Large Hot chocolate - 2.90",5.35,CARD,7054608333220554
