@@ -20,6 +20,9 @@ constructs:
           - "!node_modules"
           - "!package.json"
           - "!package-lock.json"
+          - "!readme.md"
+          - "!.github/**"
+          - "!.serverless"
       timeout: 300
       reservedConcurrency: 1
       role: arn:aws:iam::351115496094:role/data-project-lambda-role

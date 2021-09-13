@@ -10,8 +10,10 @@ def baskets(data):
     orders = pd.read_sql_query("SELECT * FROM orders;", connection)
     products = pd.read_sql_query("SELECT * FROM products;", connection)
     baskets = pd.read_sql_query("SELECT order_id FROM baskets;", connection)
-    orders["order_timestamp"] = orders["order_timestamp"].astype(str)
     branches = pd.read_sql_query("SELECT * FROM branches;", connection)
+    
+    orders["order_timestamp"] = orders["order_timestamp"].astype(str)
+
 
     cafe_data = pd.DataFrame(data)
     cafe = data
