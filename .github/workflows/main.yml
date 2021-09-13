@@ -21,11 +21,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     
     - run: npm install
-
     - run: npm install -g serverless
-
     - run: npm install serverless-python-requirements
-    
+    - run: npm i serverless-lift
+
     - name: serverless deploy
       uses: serverless/github-action@v1
       with:
