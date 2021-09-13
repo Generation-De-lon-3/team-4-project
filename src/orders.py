@@ -16,13 +16,17 @@ def orders(data):
 
     
     merged = pd.merge(branches, cafe[["order_timestamp", "branch_name"]], on="branch_name", how="right") 
-    merged = orders.merge(merged, on=["order_timestamp", "branch_id"], how="right", indicator=True)
-    ordervalues = merged[merged["_merge"] == "right_only"]
-                    
-    sql = "INSERT INTO orders (order_timestamp, branch_id) VALUES (%s, %s)"
+    # merged = orders.merge(merged, on=["order_timestamp", "branch_id"], how="right", indicator=True)
+    # ordervalues = merged[merged["_merge"] == "right_only"]
+    
+    ordervalues = merged
+    
+    print(merged)
+        
+    # sql = "INSERT INTO orders (order_timestamp, branch_id) VALUES (%s, %s)"
 
-    if not ordervalues.empty:
-        for index, row in ordervalues.iterrows():
-            cursor.execute(sql, (row.order_timestamp, row.branch_id))
-            connection.commit()
-    cursor.close()
+    # if not ordervalues.empty:
+    #     for index, row in ordervalues.iterrows():
+    #         cursor.execute(sql, (row.order_timestamp, row.branch_id))
+    #         connection.commit()
+    # cursor.close()
