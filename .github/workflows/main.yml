@@ -24,14 +24,10 @@ jobs:
 
     - run: npm install -g serverless
 
-    - name: navigate to serverless
-      run: cd team4-sls-split
-    - run: npx serverless
-
     - name: serverless deploy
       uses: serverless/github-action@v1
       with:
-        args: deploy
+        args: deploy 
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
