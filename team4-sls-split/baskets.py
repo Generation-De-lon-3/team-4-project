@@ -17,14 +17,13 @@ def baskets(data):
     cafe = data
     
     products_dict = products.to_dict("records")
-
+    
     for each in products_dict:
         for item in cafe:
             for every in item["basket"]:
                 if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
                     every["product_id"] = each["product_id"]
-
-
+                    
     merged = pd.merge(branches, cafe_data, on="branch_name", how="right") 
     
     orders["x"] = orders.groupby(["order_timestamp", "branch_id"]).cumcount()
@@ -32,10 +31,10 @@ def baskets(data):
     
     merged = merged.merge(orders, on=("order_timestamp", "x", "branch_id"), how="inner")
     merged = merged.to_dict('records')  
-
+    
     final = []
     basketvalues = []    
-
+    
     for every in merged:
         for entry in every["basket"]:
             if every["order_id"] in baskets.values:

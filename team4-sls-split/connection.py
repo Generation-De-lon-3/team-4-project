@@ -23,7 +23,7 @@ def conn():
         host=REDSHIFT_HOST,
         database=REDSHIFT_DATABASE,   
         port=5439)
-
+    
     return connection
     
     
@@ -55,7 +55,7 @@ def initdb():
         UNIQUE (payment_id),
         PRIMARY KEY (payment_id)
         );
-
+        
         CREATE TABLE IF NOT EXISTS products (
             product_id INT IDENTITY (1,1) NOT NULL,
             product_name varchar(100) NOT NULL,

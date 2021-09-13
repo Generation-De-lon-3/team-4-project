@@ -6,9 +6,9 @@ def branches(data):
     
     connection = conn()
     cursor = connection.cursor()
-
+    
     branches = pd.read_sql_query("SELECT branch_name FROM branches;", connection)
-
+    
     branchvalues = []
     
     for each in data:
