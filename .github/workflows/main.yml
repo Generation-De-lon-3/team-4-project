@@ -2,8 +2,8 @@ ame: Deploy Lambda
 
 on: 
   push:
-  branches:
-    - main
+    branches:
+      - main
 
 jobs:
   deploy:
