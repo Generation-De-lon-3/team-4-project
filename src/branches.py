@@ -9,7 +9,6 @@ def branches(data):
     connection = psycopg2.connect(host="127.0.0.1", user="root", password="password", database="cafe", port=5432)
     cursor = connection.cursor()
 
-
     branches = pd.read_sql_query("SELECT branch_name FROM branches;", connection)
 
     branchvalues = []

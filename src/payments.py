@@ -1,4 +1,3 @@
-from numpy import int64
 import psycopg2
 import pandas as pd
 
@@ -22,8 +21,7 @@ def payments(data):
     orders["x"] = orders.groupby(["order_timestamp", "branch_id"]).cumcount()
     merged["x"] = merged.groupby("order_timestamp").cumcount()
     
-    
-    merged = merged.merge(orders, on=("order_timestamp", "branch_id", "x"), how="inner")    
+    merged = merged.merge(orders, on=("order_timestamp", "branch_id", "x"), how="inner")
     merged = payments.merge(merged, on=["order_id"], how="right", indicator=True)
     
     paymentvalues = merged[merged["_merge"] == "right_only"]

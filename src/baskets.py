@@ -15,7 +15,6 @@ def baskets(data):
     orders["order_timestamp"] = orders["order_timestamp"].astype(str)
     branches = pd.read_sql_query("SELECT * FROM branches;", connection)
 
-
     cafe_data = pd.DataFrame(data)
     cafe = data
     
@@ -26,7 +25,6 @@ def baskets(data):
             for every in item["basket"]:
                 if each["product_name"] + each["product_size"] == every["product_name"] + every["product_size"]:
                     every["product_id"] = each["product_id"]
-
 
     merged = pd.merge(branches, cafe_data, on="branch_name", how="right") 
     
