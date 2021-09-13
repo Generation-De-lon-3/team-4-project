@@ -4,7 +4,10 @@ __pycache__
 .serverless
 .venv
 .vscode
+.devcontainer
 node_modules
 package.json
 package-lock.json
 venv
+data/**
+
