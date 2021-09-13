@@ -59,9 +59,9 @@ def app():
         data = json.dumps(cafe_dict)
         data = json.loads(data)
 
-        # branches(data)
-        # orders(data)
-        # payments(data)
-        # products(data)
+        branches(data)
+        orders(data)
+        payments(data)
+        products(data)
         baskets(data)
 app()
