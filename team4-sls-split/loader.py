@@ -8,15 +8,12 @@ from baskets import baskets
 from payments import payments
 
 def handle(event, handler):
-    
-    # print(event)
-    
+        
     data = json.loads(event["Records"][0]["body"])
-    
     
     initdb()
     branches(data)
-    products(data)
     orders(data)
     payments(data)
+    products(data)
     baskets(data)

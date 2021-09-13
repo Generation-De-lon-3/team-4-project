@@ -7,19 +7,19 @@ def products(data):
     connection = conn()
     cursor = connection.cursor()
 
-    baskets = []
+    basket = []
 
     for item in data:
         for index, each in enumerate(item['basket']):
-            baskets.append(item['basket'][index])
+            basket.append(item['basket'][index])
 
-    baskets2 = [dict(tupleized) for tupleized in set(tuple(item.items()) for item in baskets)]
-    baskets3 = pd.DataFrame(baskets2)
+    basket2 = [dict(tupleized) for tupleized in set(tuple(item.items()) for item in basket)]
+    basket3 = pd.DataFrame(basket2)
 
     products = pd.read_sql_query("SELECT product_size, product_name, product_price FROM products;", connection)
     products['product_price'] = products['product_price'].apply(lambda x: "{:.2f}".format(x))
  
-    final = products.merge(baskets3, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'right_only']    
+    final = products.merge(basket3, how='outer', indicator=True).loc[lambda x: x['_merge'] == 'right_only']    
     productvalues = final.to_dict('records')
     
     for item in productvalues:

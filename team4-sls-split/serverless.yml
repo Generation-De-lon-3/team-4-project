@@ -17,6 +17,9 @@ constructs:
           - "!extract/**"
           - "!deploy.sh"
           - "!requirements.txt"
+          - "!node_modules"
+          - "!package.json"
+          - "!package-lock.json"
       timeout: 300
       reservedConcurrency: 1
       role: arn:aws:iam::351115496094:role/data-project-lambda-role
@@ -28,7 +31,6 @@ constructs:
 plugins:
   - serverless-python-requirements
   - serverless-lift
-
 custom:
   pythonRequirements:
     slim: true
