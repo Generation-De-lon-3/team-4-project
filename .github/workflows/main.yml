@@ -24,6 +24,8 @@ jobs:
 
     - run: npm install -g serverless
 
+    - run: npm install serverless-python-requirements
+    
     - name: serverless deploy
       uses: serverless/github-action@v1
       with:
