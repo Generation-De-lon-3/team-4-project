@@ -21,7 +21,7 @@ def orders(data):
     ordervalues = merged[merged["_merge"] == "right_only"]
     
     sql = "INSERT INTO orders (order_timestamp, branch_id) VALUES (%s, %s)"
-
+    
     if not ordervalues.empty:
         for index, row in ordervalues.iterrows():
             cursor.execute(sql, (row.order_timestamp, row.branch_id))

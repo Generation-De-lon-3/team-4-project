@@ -9,7 +9,6 @@ from payments import payments
 
 
 files=os.listdir("data")
-# print(files)
 
 dfs = list()
 
