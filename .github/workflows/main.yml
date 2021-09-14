@@ -25,7 +25,6 @@ jobs:
     - run: npm install serverless-python-requirements
     - run: npm install serverless-lift
 
-# lambda deploy
     - name: Serverless AWS authentication
       run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - run: sls deploy
