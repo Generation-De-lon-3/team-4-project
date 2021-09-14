@@ -16,8 +16,9 @@ def handle(event, context):
     cafe_data["order_timestamp"] = pd.to_datetime(cafe_data["order_timestamp"], format='%d/%m/%Y %H:%M')
     cafe_data["order_timestamp"] = cafe_data["order_timestamp"].astype(str)
     cafe_data["payment_method"] = cafe_data["payment_method"].astype(str)
-    cafe_data["card_type"] = cafe_data["card_type"].astype(str)
-    del cafe_data["customer"] 
+    
+    del cafe_data["customer"]
+    del cafe_data["card_type"]
 
     cafe_dict = cafe_data.to_dict('records')
 
@@ -26,7 +27,6 @@ def handle(event, context):
     for item in cafe_dict:
         item['basket'] = item['basket'].replace(" -", "-")
         item['basket'] = item['basket'].replace(", ", ",")
-
         item['basket'] = item['basket'].split(',')
         
         for index, each in enumerate(item['basket']):
@@ -44,11 +44,6 @@ def handle(event, context):
             
         for index, each in enumerate(item["basket"]):
             item["basket"][index]["product_name"] = each["product_name"].replace("-", " -")
-
-        item["card_type"] = item["card_type"].replace(".0", "")
-        item["card_type"] = "".join(['#' for x in item["card_type"][:-4]]) + item["card_type"][-4:]
-    
-    
     
     sqs = boto3.client("sqs")
 
