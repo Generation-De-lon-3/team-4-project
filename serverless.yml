@@ -20,15 +20,17 @@ constructs:
           - "!node_modules"
           - "!package.json"
           - "!package-lock.json"
-          - "!readme.md"
+          - "!README.md"
           - "!.github/**"
           - "!.serverless"
-      timeout: 300
+      timeout: 600
       reservedConcurrency: 1
       role: arn:aws:iam::351115496094:role/data-project-lambda-role
       handler: loader.handle
       layers:
-      - Ref: PythonRequirementsLambdaLayer
+        - Ref: PythonRequirementsLambdaLayer
+      memorySize: 10240
+
 
 
 plugins:
@@ -40,7 +42,6 @@ custom:
     layer: true
     dockerizePip: true
     # zip: true
-    # dockerImage: python:latest
 
   # functionsBasePath: src
 
@@ -94,11 +95,6 @@ functions:
           rules:
             - suffix: .csv
           existing: true
-      # - sqs:
-      #     arn:
-      #       Fn::GetAtt:
-      #         - MyQueue
-      #         - Arn
     environment:
       QUEUE_URL: ${construct:load.queueUrl}
     package:
@@ -130,12 +126,12 @@ functions:
 
     
   
-resources:
-  Resources:
-    IamRoleCustomResourcesLambdaExecution:
-      Type: AWS::IAM::Role
-      Properties:
-        PermissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
+# resources:
+#   Resources:
+#     IamRoleCustomResourcesLambdaExecution:
+#       Type: AWS::IAM::Role
+#       Properties:
+#         PermissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
     
     # MyQueue:
     #   Type: "AWS::SQS::Queue"
