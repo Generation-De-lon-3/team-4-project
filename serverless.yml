@@ -1,4 +1,4 @@
-service: team4-sls-split
+service: team4-split
 
 
 constructs:
@@ -32,7 +32,6 @@ constructs:
       memorySize: 10240
 
 
-
 plugins:
   - serverless-python-requirements
   - serverless-lift
@@ -41,43 +40,24 @@ custom:
     slim: true
     layer: true
     dockerizePip: true
-    # zip: true
-
-  # functionsBasePath: src
 
 
 provider:
   iam:  
     role:
       permissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
-      # statements:
-      #   - Effect: Allow
-      #     Action: ["s3:PutObject", "s3:GetObject", "s3:DeleteObject", "s3:ListBucket", "sqs:ReceiveMessage", "sqs:SendMessage", "sqs:GetQueueUrl", "sqs:CreateQueue", "sqs:ListQueues"]
-      #     Resource:
-      #       - arn:aws:iam::351115496094:role/data-project-lambda-role
-
   region: eu-west-1
   name: aws
   runtime: python3.8
   lambdaHashingVersion: 20201221
   timeout: 300
 
-  # iamRoleStatements:
-  #   - Effect: 'Allow'
-  #     Action:
-  #       - s3:GetObject
-  #       - s3:ListBucket
-  #     Resource:
-  #       - arn:aws:iam::351115496094:role/data-project-lambda-role
-
-  # stage: dev
 
 package:
   individually: true
   # patterns:
     # - "!*"
     # - "!*/**"
-  excludeDevDependencies: true
 
 
 functions:
@@ -102,37 +82,11 @@ functions:
         - "!*"
         - "!*/**"
         - "extract/extract.py"
-  # load:
-  #   vpc:
-  #     securityGroupIds:
-  #       - sg-0afcfd2a983b80407
-  #     subnetIds:
-  #       - subnet-0f0145739a0011749
-  #       - subnet-0b5a9c546fd7ca400
-  #       - subnet-026cbc956a6cc5592
-  #   handler: src/load/load.handle
-  #   package:
-  #     include:
-  #       - src/load/**
-  #   timeout: 300
-  #   reservedConcurrency: 1
-  #   role: arn:aws:iam::351115496094:role/data-project-lambda-role
-  #   # events:
-  #     # - sqs:
-  #     #     arn:
-  #     #       Fn::GetAtt:
-  #     #         - MyQueue
-  #     #         - Arn
 
-    
-  
-# resources:
-#   Resources:
-#     IamRoleCustomResourcesLambdaExecution:
-#       Type: AWS::IAM::Role
-#       Properties:
-#         PermissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions
-    
-    # MyQueue:
-    #   Type: "AWS::SQS::Queue"
-    #   Properties:
+
+resources:
+  Resources:
+    IamRoleCustomResourcesLambdaExecution:
+      Type: AWS::IAM::Role
+      Properties:
+        PermissionsBoundary: arn:aws:iam::351115496094:policy/ScopePermissions

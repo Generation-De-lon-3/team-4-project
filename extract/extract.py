@@ -19,11 +19,11 @@ def handle(event, context):
     
     del cafe_data["customer"]
     del cafe_data["card_type"]
-
+    
     cafe_dict = cafe_data.to_dict('records')
-
+    
     basket_fields = ['product_size', 'product_name', 'product_price']
-
+    
     for item in cafe_dict:
         item['basket'] = item['basket'].replace(" -", "-")
         item['basket'] = item['basket'].replace(", ", ",")
@@ -38,7 +38,7 @@ def handle(event, context):
         
         for index, each in enumerate(item['basket']):
             item['basket'][index] = each.split(',')
-
+            
         for index, items in enumerate(item['basket']):  
             item['basket'][index] = dict(zip(basket_fields, items))
             
@@ -46,9 +46,9 @@ def handle(event, context):
             item["basket"][index]["product_name"] = each["product_name"].replace("-", " -")
     
     sqs = boto3.client("sqs")
-
+    
     response = sqs.send_message(
         QueueUrl = os.environ["QUEUE_URL"],
         MessageBody=json.dumps(cafe_dict)
         )
-        
+    

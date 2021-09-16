@@ -5,7 +5,7 @@ import psycopg2
 def conn():
     
     client = boto3.client('redshift', region_name='eu-west-1')
-
+    
     REDSHIFT_USER = "awsuser"
     REDSHIFT_CLUSTER = "redshiftcluster-jlqz8zhcuit6"
     REDSHIFT_HOST = "redshiftcluster-jlqz8zhcuit6.cc3hslvy2bfm.eu-west-1.redshift.amazonaws.com"
@@ -55,7 +55,7 @@ def initdb():
         UNIQUE (payment_id),
         PRIMARY KEY (payment_id)
         );
-
+        
         CREATE TABLE IF NOT EXISTS products (
             product_id INT IDENTITY (1,1) NOT NULL,
             product_name varchar(100) NOT NULL,
@@ -79,3 +79,4 @@ def initdb():
     connection.commit()
     cursor.close()
     connection.close()
+    

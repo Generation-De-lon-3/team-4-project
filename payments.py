@@ -3,7 +3,7 @@ from connection import conn
 
 
 def payments(data):
-
+    
     connection = conn()
     cursor = connection.cursor()
 
@@ -30,3 +30,4 @@ def payments(data):
             cursor.execute(sql, (row.order_id, row.payment_method, row.payment_total))
             connection.commit()
     cursor.close()
+    
